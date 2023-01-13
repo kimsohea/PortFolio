@@ -1,0 +1,3330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,maximum-scale=1">
+	<title>국내도서/외국도서/eBook</title>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+	<script src="./js/main.js"></script>
+	<script src="./js/function.js"></script>
+	<script src="./js/widthTest.js"></script>
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/mobile_768.css">
+	<link rel="stylesheet" href="./css/mobile_500.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="icon" href="./img/favicon.ico">
+</head>
+
+<body>
+	<header class="listBg">
+		<div class="hWrap">
+		<div class="logo"><h1><a href="./index.html"><img src="./img/logo.jpg" alt="알라딘 로고"></a></h1></div>
+		<ul class="gnb">
+			<li>
+				<a href="./bookSubpage.html">국내도서/외국도서</a>
+				<ul class="depthlist1">
+					<li>
+						<a href="./bookSubpage.html?bookSub=0">국내도서</a>
+						<ul class="depthlist2">
+							<li>
+								<a href="#">장르별</a>
+								<ul class="depthlist3">
+									<li><a href="#">유아</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">전집/중고전집</a></li>
+									<li><a href="#">좋은부모</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">초등학교참고서</a></li>
+									<li><a href="#">중학교참고서</a></li>
+									<li><a href="#">고등학교참고서</a></li>
+									<li><a href="#">여행</a></li>
+									<li><a href="#">가정/요리/뷰티</a></li>
+									<li><a href="#">건강/취미/레저</a></li>
+									<li><a href="#">달력/기타</a></li>
+									<li><a href="#">잡지</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">고전</a></li>
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">장르소설</a></li>
+									<li><a href="#">에세이</a></li>
+									<li><a href="#">인문학</a></li>
+									<li><a href="#">사회과학</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">과학</a></li>
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">종교/역학</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">자기계발</a></li>
+									<li><a href="#">외국어</a></li>
+									<li><a href="#">컴퓨터/모바일</a></li>
+									<li><a href="#">대학교재</a></li>
+									<li><a href="#">공무원 수험서</a></li>
+									<li><a href="#">수험서/자격증</a></li>
+								</ul>
+							</li>
+							<li><a href="#">베스트셀러</a></li>
+							<li><a href="#">새로나온책</a></li>
+							<li><a href="#">추천도서</a></li>
+							<li><a href="#">정가인하도서</a></li>
+							<li><a href="#">이벤트</a></li>
+							<li><a href="#">독자북펀드</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./bookSubpage.html?bookSub=1">외국도서</a>
+						<ul class="depthlist2">
+							<li>
+								<a href="#">영미도서</a>
+								<ul class="depthlist3">
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">ELT/어학/사전</a></li>
+									<li><a href="#">인문/사회</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">종교/명상/점술</a></li>
+									<li><a href="#">요리</a></li>
+									<li><a href="#">해외잡지</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">공예/취미/수집</a></li>
+									<li><a href="#">가정/원예/인테리어</a></li>
+									<li><a href="#">건강/스포츠</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">여행</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">대학교재/전문서</a>
+								<ul class="depthlist3">
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">자연과학</a></li>
+									<li><a href="#">기술공학</a></li>
+									<li><a href="#">의학</a></li>
+									<li><a href="#">컴퓨터</a></li>
+									<li><a href="#">교육/자료</a></li>
+									<li><a href="#">건축/디자인</a></li>
+									<li><a href="#">언어학</a></li>
+									<li><a href="#">법률</a></li>
+									<li><a href="#">수험서</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">기타언어권</a>
+								<ul class="depthlist3">
+									<li><a href="#">중국 도서</a></li>
+									<li><a href="#">독일 도서</a></li>
+									<li><a href="#">스페인 도서</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">어린이</a>
+								<ul class="depthlist3">
+									<li><a href="#">캐릭터</a></li>
+									<li><a href="#">그림책</a></li>
+									<li><a href="#">리더스</a></li>
+									<li><a href="#">챕터북</a></li>
+									<li><a href="#">동화책</a></li>
+									<li><a href="#">오디오북</a></li>
+									<li><a href="#">어린이사전</a></li>
+									<li><a href="#">개념학습</a></li>
+									<li><a href="#">코스북</a></li>
+									<li><a href="#">영어학습</a></li>
+									<li><a href="#">교과학습</a></li>
+									<li><a href="#">미국교과서</a></li>
+									<li><a href="#">수상작</a></li>
+									<li><a href="#">제2외국어/이중언어</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">일본도서</a>
+								<ul class="depthlist3">
+									<li><a href="#">잡지</a></li>
+									<li><a href="#">코믹</a></li>
+									<li><a href="#">문학</a></li>
+									<li><a href="#">실용/취미/생활</a></li>
+									<li><a href="#">라이트노벨</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">애니메이션 굿즈</a></li>
+								</ul>
+							</li>
+							<li><a href="#">베스트셀러</a></li>
+							<li><a href="#">새로나온책</a></li>
+							<li><a href="#">특가도서</a></li>
+							<li><a href="#">이벤트</a></li>
+							<li><a href="#">LEXILE 지수별 원서 읽기</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./bookSubpage.html?bookSub=2">eBook</a>
+						<ul class="depthlist2">
+							<li>
+								<a href="#">장르</a>
+								<ul class="depthlist3">
+									<li><a href="#">유아</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">좋은부모</a></li>
+									<li><a href="#">가정/요리/뷰티</a></li>
+									<li><a href="#">건강/취미/레저</a></li>
+									<li><a href="#">여행</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">자기계발</a></li>
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">라이트노벨</a></li>
+									<li><a href="#">에세이</a></li>
+									<li><a href="#">인문학</a></li>
+									<li><a href="#">사회과학</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">과학</a></li>
+									<li><a href="#">고전</a></li>
+									<li><a href="#">로맨스</a></li>
+									<li><a href="#">BL</a></li>
+									<li><a href="#">판타지/무협</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">오디오북</a></li>
+								</ul>
+							</li>
+							<li><a href="#">베스트셀러</a></li>
+							<li><a href="#">스테디셀러</a></li>
+							<li><a href="#">새로나온 전자책</a></li>
+							<li><a href="#">무료 전자책</a></li>
+							<li><a href="#">대여 전자책</a></li>
+							<li><a href="#">연재 전자책</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="./goods.html">알라딘 굿즈</a>
+				<ul class="depthlist1">
+					<li>
+						<a href="#">알라딘굿즈</a>
+						<ul class="depthlist2">
+							<li><a href="#">문구</a></li>
+							<li><a href="#">독서용품</a></li>
+							<li><a href="#">데스크용품</a></li>
+							<li><a href="#">디지털</a></li>
+							<li><a href="#">가방/파우치</a></li>
+							<li><a href="#">생활용품</a></li>
+							<li><a href="#">리빙/키친</a></li>
+							<li><a href="#">의류/잡화</a></li>
+							<li><a href="#">노트</a></li>
+							<li><a href="#">독서대</a></li>
+							<li><a href="#">북마크</a></li>
+							<li><a href="#">북커버</a></li>
+							<li><a href="#">필기구</a></li>
+							<li><a href="#">메모지</a></li>
+							<li><a href="#">파우치</a></li>
+							<li><a href="#">조명</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">캐릭터굿즈</a>
+						<ul class="depthlist2">
+							<li><a href="#">피너츠</a></li>
+							<li><a href="#">어린왕자</a></li>
+							<li><a href="#">둘리</a></li>
+							<li><a href="#">삐삐</a></li>
+							<li><a href="#">앨리스</a></li>
+							<li><a href="#">빨강머리앤</a></li>
+							<li><a href="#">우주</a></li>
+							<li><a href="#">고양이</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">커피</a>
+						<ul class="depthlist2">
+							<li><a href="#">원두</a></li>
+							<li><a href="#">드립백</a></li>
+							<li><a href="#">콜드브루</a></li>
+							<li><a href="#">커피도구</a></li>
+						</ul>
+					</li>
+					<li><a href="#">베스트셀러</a></li>
+					<li><a href="#">생활용품연구소</a></li>
+					<li><a href="#">알라딘 문방구</a></li>
+					<li><a href="#">굿즈한정할인</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="./usedSubpage.html">중고샵+중고매장</a>
+				<ul class="depthlist1">
+					<li>
+						<a href="#">온라인 중고샵</a>
+						<ul class="depthlist2">
+							<li>
+								<a href="#">중고 국내도서</a>
+								<ul class="depthlist3">
+									<li><a href="#">가정/요리/뷰티</a></li>
+									<li><a href="#">건강/취미/레저</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">고전</a></li>
+									<li><a href="#">과학</a></li>
+									<li><a href="#">대학교재/전문서적</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">달력/기타</a></li>
+									<li><a href="#">사회과학</a></li>
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">수험서/자격증</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">에세이</a></li>
+									<li><a href="#">여행</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">외국어</a></li>
+									<li><a href="#">유아</a></li>
+									<li><a href="#">인문학</a></li>
+									<li><a href="#">자기계발</a></li>
+									<li><a href="#">장르소설</a></li>
+									<li><a href="#">잡지</a></li>
+									<li><a href="#">전집/중고전집</a></li>
+									<li><a href="#">종교/역학</a></li>
+									<li><a href="#">좋은부모</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">컴퓨터/모바일</a></li>
+									<li><a href="#">초등학교참고서</a></li>
+									<li><a href="#">중학교참고서</a></li>
+									<li><a href="#">고등학교참고서</a></li>
+									<li><a href="#">고서/희귀본</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">중고 외국도서</a>
+								<ul class="depthlist3">
+									<li><a href="#">가정/원예/인테리어</a></li>
+									<li><a href="#">가족/관계</a></li>
+									<li><a href="#">건강/스포츠</a></li>
+									<li><a href="#">건축/디자인</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">공예/취미/수집</a></li>
+									<li><a href="#">교육/자료</a></li>
+									<li><a href="#">기술공학</a></li>
+									<li><a href="#">달력/다이어리/연감</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">법률</a></li>
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">수험서</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">언어학</a></li>
+									<li><a href="#">에세이</a></li>
+									<li><a href="#">여행</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">오디오북</a></li>
+									<li><a href="#">요리</a></li>
+									<li><a href="#">유머</a></li>
+									<li><a href="#">의학</a></li>
+									<li><a href="#">인문/사회</a></li>
+									<li><a href="#">자기계발</a></li>
+									<li><a href="#">과학/수학/생태</a></li>
+									<li><a href="#">전기/자서전</a></li>
+									<li><a href="#">종교/명상/점술</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">컴퓨터</a></li>
+									<li><a href="#">해외잡지</a></li>
+									<li><a href="#">ELT/어학/사전</a></li>
+									<li><a href="#">기타 언어권 도서</a></li>
+									<li><a href="#">일본 도서</a></li>
+									<li><a href="#">중국 도서</a></li>
+									<li><a href="#">독일 도서</a></li>
+									<li><a href="#">스페인 도서</a></li>
+									<li><a href="#">한국관련도서</a></li>
+									<li><a href="#">문구/비도서</a></li>
+									<li><a href="#">고서/희귀본</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">중고 음반</a>
+								<ul class="depthlist3">
+									<li><a href="#">가요</a></li>
+									<li><a href="#">국악</a></li>
+									<li><a href="#">월드뮤직</a></li>
+									<li><a href="#">재즈</a></li>
+									<li><a href="#">종교/명상/기타</a></li>
+									<li><a href="#">클래식</a></li>
+									<li><a href="#">팝</a></li>
+									<li><a href="#">해외구매</a></li>
+									<li><a href="#">J-Pop</a></li>
+									<li><a href="#">Lp</a></li>
+									<li><a href="#">O.S.T.</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">중고 DVD/블루레이</a>
+								<ul class="depthlist3">
+									<li><a href="#">드라마/코미디</a></li>
+									<li><a href="#">박스세트</a></li>
+									<li><a href="#">블루레이</a></li>
+									<li><a href="#">TV 시리즈</a></li>
+									<li><a href="#">제작국가별</a></li>
+									<li><a href="#">VHS (비디오테이프)</a></li>
+									<li><a href="#">VCD</a></li>
+									<li><a href="#">액션/어드벤쳐</a></li>
+									<li><a href="#">S.F/판타지</a></li>
+									<li><a href="#">공포/스릴러</a></li>
+									<li><a href="#">음악DVD</a></li>
+									<li><a href="#">애니메이션</a></li>
+									<li><a href="#">유아/아동</a></li>
+									<li><a href="#">교양/다큐멘터리</a></li>
+									<li><a href="#">취미/스포츠</a></li>
+									<li><a href="#">성인</a></li>
+								</ul>
+							</li>
+							<li><a href="#">많이 판매된 중고</a></li>
+							<li><a href="#">역대 베스트 중고</a></li>
+							<li><a href="#">새로 등록된 상품</a></li>
+							<li><a href="#">2000원샵</a></li>
+							<li><a href="#">최종 땡처리</a></li>
+							<li><a href="#">단골 판매자 보기</a></li>
+							<li>
+								<a href="#">판매자매니저</a>
+								<ul class="depthlist3">
+									<li><a href="#">알라딘에 중고팔기</a></li>
+									<li><a href="#">판매가능여부/판매가격확인하기</a></li>
+									<li><a href="#">온라인중고샵 FAQ</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">중고매장</a>
+						<ul class="depthlist2">
+							<li>
+								<a href="#">서울</a>
+								<ul class="depthlist3">
+									<li><a href="#">가로수길점</a></li>
+									<li><a href="#">강남점</a></li>
+									<li><a href="#">강서홈플러스점</a></li>
+									<li><a href="#">건대점</a></li>
+									<li><a href="#">노원역점</a></li>
+									<li><a href="#">대학로점</a></li>
+									<li><a href="#">서울대입구역점</a></li>
+									<li><a href="#">수유점</a></li>
+									<li><a href="#">신림점</a></li>
+									<li><a href="#">신촌점</a></li>
+									<li><a href="#">연신내점</a></li>
+									<li><a href="#">영등포점</a></li>
+									<li><a href="#">이수역점</a></li>
+									<li><a href="#">잠실새내역점</a></li>
+									<li><a href="#">잠실롯데</a></li>
+									<li><a href="#">월드타워점</a></li>
+									<li><a href="#">종로점</a></li>
+									<li><a href="#">합정점</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">경기</a>
+								<ul class="depthlist3">
+									<li><a href="#">동탄점</a></li>
+									<li><a href="#">동탄2</a></li>
+									<li><a href="#">하나로마트점</a></li>
+									<li><a href="#">부천점</a></li>
+									<li><a href="#">분당서현점</a></li>
+									<li><a href="#">분당야탑점</a></li>
+									<li><a href="#">산본점</a></li>
+									<li><a href="#">수원시청역점</a></li>
+									<li><a href="#">수원점</a></li>
+									<li><a href="#">의정부홈플러스점</a></li>
+									<li><a href="#">일산점</a></li>
+									<li><a href="#">화정점</a></li>
+									<li><a href="#">평택점</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">광역시 등</a>
+								<ul class="depthlist3">
+									<li><a href="#">광주상무점</a></li>
+									<li><a href="#">광주충장로점</a></li>
+									<li><a href="#">김해점</a></li>
+									<li><a href="#">대구동성로점</a></li>
+									<li><a href="#">대구상인점점</a></li>
+									<li><a href="#">대전시청역점</a></li>
+									<li><a href="#">대전은행점</a></li>
+									<li><a href="#">동대구역점</a></li>
+									<li><a href="#">부산경성대점</a></li>
+									<li><a href="#">부경대역점</a></li>
+									<li><a href="#">부산덕천점</a></li>
+									<li><a href="#">부산서면점</a></li>
+									<li><a href="#">부산센텀점</a></li>
+									<li><a href="#">울산점</a></li>
+									<li><a href="#">인천계산점</a></li>
+									<li><a href="#">인천구월점</a></li>
+									<li><a href="#">인천송도점</a></li>
+									<li><a href="#">전주점</a></li>
+									<li><a href="#">마산합성점</a></li>
+									<li><a href="#">창원상남점</a></li>
+									<li><a href="#">천안신불당점</a></li>
+									<li><a href="#">청주점</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">커피매장</a>
+								<ul class="depthlist3">
+									<li><a href="#">매장메뉴</a></li>
+									<li><a href="#">스탬프이벤트</a></li>
+								</ul>
+							</li>
+							<li><a href="#">중고매장 FAQ</a></li>
+							<li><a href="#">판매가이드</a></li>
+							<li><a href="#">판매가능여부/판매가격확인하기</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">우주점</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="./music+bluelaySubpage.html">음반+블루레이</a>
+				<ul class="depthlist1">
+					<li>
+						<a href="./music+bluelaySubpage.html?mnb=0">음반</a>
+						<ul class="depthlist2">
+							<li><a href="#">가요</a></li>
+							<li><a href="#">POP</a></li>
+							<li><a href="#">클래식</a></li>
+							<li><a href="#">재즈</a></li>
+							<li><a href="#">월드뮤직</a></li>
+							<li><a href="#">J-POP</a></li>
+							<li><a href="#">OST</a></li>
+							<li><a href="#">국악</a></li>
+							<li><a href="#">종교,명상,기타</a></li>
+							<li><a href="#">Music DVD</a></li>
+							<li><a href="#">LP</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./music+bluelaySubpage.html?mnb=1">블루레이</a>
+						<ul class="depthlist2">
+							<li>
+								<a href="#">블루레이</a>
+								<ul class="depthlist3">
+									<li><a href="#">3D 블루레이</a></li>
+									<li><a href="#">공포/스릴러</a></li>
+									<li><a href="#">다큐멘터리</a></li>
+									<li><a href="#">드라마/코미디</a></li>
+									<li><a href="#">애니메이션</a></li>
+									<li><a href="#">액션/SF</a></li>
+									<li><a href="#">음악</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">DVD</a>
+								<ul class="depthlist3">
+									<li><a href="#">드라마/코미디</a></li>
+									<li><a href="#">TV시리즈</a></li>
+									<li><a href="#">액션/어드벤쳐</a></li>
+									<li><a href="#">S.F/판타지</a></li>
+									<li><a href="#">공포/스릴러</a></li>
+									<li><a href="#">애니메이션</a></li>
+									<li><a href="#">음악/DVD</a></li>
+									<li><a href="#">취미/스포츠</a></li>
+									<li><a href="#">교양/다큐멘터리</a></li>
+									<li><a href="#">유아/아동</a></li>
+									<li><a href="#">박스세트</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="./librarySubpage.html">서재</a>
+				<ul class="depthlist1">
+					<li>
+						<a href="#">서재</a>
+						<ul class="depthlist2">
+							<li><a href="#">알라딘서재</a></li>
+							<li><a href="#">나의서재</a></li>
+						</ul>
+					</li>
+					<li><a href="#">북플</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="pcPrivacy">
+			<li><figure><img src="./img/search_icon.jpg"></figure></li>
+			<li><a href="#">마이페이지</a></li>
+			<li><a href="#">로그인</a></li>
+			<li><a href="#">회원가입</a></li>
+			<li><a href="#">장바구니(0)</a></li>
+		</ul>
+		<div class="mobile">
+			<form class="searchBar">
+				<label for="search"></label>
+                <input type="text" name="" id="search">
+                <button><img src="./img/search_icon.png" alt="검색 아이콘"></button>
+			</form>
+			<ul class="mobilePrivacy">
+				<li><a href="#">마이페이지</a></li>
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">회원가입</a></li>
+				<li><a href="#">장바구니(0)</a></li>
+			</ul>
+			<ul class="mobileGnb">
+			<li>
+				<a href="./bookSubpage.html">국내도서/외국도서</a>
+				<ul class="depthlist1m">
+					<li>
+						<a href="./bookSubpage.html?bookSub=0">국내도서</a>
+						<ul class="depthlist2m">
+							<li>
+								<a href="#">장르별</a>
+								<ul class="depthlist3m">
+									<li><a href="#">유아</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">전집/중고전집</a></li>
+									<li><a href="#">좋은부모</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">초등학교참고서</a></li>
+									<li><a href="#">중학교참고서</a></li>
+									<li><a href="#">고등학교참고서</a></li>
+									<li><a href="#">여행</a></li>
+									<li><a href="#">가정/요리/뷰티</a></li>
+									<li><a href="#">건강/취미/레저</a></li>
+									<li><a href="#">달력/기타</a></li>
+									<li><a href="#">잡지</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">고전</a></li>
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">장르소설</a></li>
+									<li><a href="#">에세이</a></li>
+									<li><a href="#">인문학</a></li>
+									<li><a href="#">사회과학</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">과학</a></li>
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">종교/역학</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">자기계발</a></li>
+									<li><a href="#">외국어</a></li>
+									<li><a href="#">컴퓨터/모바일</a></li>
+									<li><a href="#">대학교재</a></li>
+									<li><a href="#">공무원 수험서</a></li>
+									<li><a href="#">수험서/자격증</a></li>
+								</ul>
+							</li>
+							<li><a href="#">베스트셀러</a></li>
+							<li><a href="#">새로나온책</a></li>
+							<li><a href="#">추천도서</a></li>
+							<li><a href="#">정가인하도서</a></li>
+							<li><a href="#">이벤트</a></li>
+							<li><a href="#">독자북펀드</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./bookSubpage.html?bookSub=1">외국도서</a>
+						<ul class="depthlist2m">
+							<li>
+								<a href="#">영미도서</a>
+								<ul class="depthlist3m">
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">ELT/어학/사전</a></li>
+									<li><a href="#">인문/사회</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">종교/명상/점술</a></li>
+									<li><a href="#">요리</a></li>
+									<li><a href="#">해외잡지</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">공예/취미/수집</a></li>
+									<li><a href="#">가정/원예/인테리어</a></li>
+									<li><a href="#">건강/스포츠</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">여행</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">대학교재/전문서</a>
+								<ul class="depthlist3m">
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">자연과학</a></li>
+									<li><a href="#">기술공학</a></li>
+									<li><a href="#">의학</a></li>
+									<li><a href="#">컴퓨터</a></li>
+									<li><a href="#">교육/자료</a></li>
+									<li><a href="#">건축/디자인</a></li>
+									<li><a href="#">언어학</a></li>
+									<li><a href="#">법률</a></li>
+									<li><a href="#">수험서</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">기타언어권</a>
+								<ul class="depthlist3m">
+									<li><a href="#">중국 도서</a></li>
+									<li><a href="#">독일 도서</a></li>
+									<li><a href="#">스페인 도서</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">어린이</a>
+								<ul class="depthlist3m">
+									<li><a href="#">캐릭터</a></li>
+									<li><a href="#">그림책</a></li>
+									<li><a href="#">리더스</a></li>
+									<li><a href="#">챕터북</a></li>
+									<li><a href="#">동화책</a></li>
+									<li><a href="#">오디오북</a></li>
+									<li><a href="#">어린이사전</a></li>
+									<li><a href="#">개념학습</a></li>
+									<li><a href="#">코스북</a></li>
+									<li><a href="#">영어학습</a></li>
+									<li><a href="#">교과학습</a></li>
+									<li><a href="#">미국교과서</a></li>
+									<li><a href="#">수상작</a></li>
+									<li><a href="#">제2외국어/이중언어</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">일본도서</a>
+								<ul class="depthlist3m">
+									<li><a href="#">잡지</a></li>
+									<li><a href="#">코믹</a></li>
+									<li><a href="#">문학</a></li>
+									<li><a href="#">실용/취미/생활</a></li>
+									<li><a href="#">라이트노벨</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">애니메이션 굿즈</a></li>
+								</ul>
+							</li>
+							<li><a href="#">베스트셀러</a></li>
+							<li><a href="#">새로나온책</a></li>
+							<li><a href="#">특가도서</a></li>
+							<li><a href="#">이벤트</a></li>
+							<li><a href="#">LEXILE 지수별 원서 읽기</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./bookSubpage.html?bookSub=2">eBook</a>
+						<ul class="depthlist2m">
+							<li>
+								<a href="#">장르</a>
+								<ul class="depthlist3m">
+									<li><a href="#">유아</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">좋은부모</a></li>
+									<li><a href="#">가정/요리/뷰티</a></li>
+									<li><a href="#">건강/취미/레저</a></li>
+									<li><a href="#">여행</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">자기계발</a></li>
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">라이트노벨</a></li>
+									<li><a href="#">에세이</a></li>
+									<li><a href="#">인문학</a></li>
+									<li><a href="#">사회과학</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">과학</a></li>
+									<li><a href="#">고전</a></li>
+									<li><a href="#">로맨스</a></li>
+									<li><a href="#">BL</a></li>
+									<li><a href="#">판타지/무협</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">오디오북</a></li>
+								</ul>
+							</li>
+							<li><a href="#">베스트셀러</a></li>
+							<li><a href="#">스테디셀러</a></li>
+							<li><a href="#">새로나온 전자책</a></li>
+							<li><a href="#">무료 전자책</a></li>
+							<li><a href="#">대여 전자책</a></li>
+							<li><a href="#">연재 전자책</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="./goods.html">알라딘 굿즈</a>
+				<ul class="depthlist1m">
+					<li>
+						<a href="#">알라딘굿즈</a>
+						<ul class="depthlist2m">
+							<li><a href="#">문구</a></li>
+							<li><a href="#">독서용품</a></li>
+							<li><a href="#">데스크용품</a></li>
+							<li><a href="#">디지털</a></li>
+							<li><a href="#">가방/파우치</a></li>
+							<li><a href="#">생활용품</a></li>
+							<li><a href="#">리빙/키친</a></li>
+							<li><a href="#">의류/잡화</a></li>
+							<li><a href="#">노트</a></li>
+							<li><a href="#">독서대</a></li>
+							<li><a href="#">북마크</a></li>
+							<li><a href="#">북커버</a></li>
+							<li><a href="#">필기구</a></li>
+							<li><a href="#">메모지</a></li>
+							<li><a href="#">파우치</a></li>
+							<li><a href="#">조명</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">캐릭터굿즈</a>
+						<ul class="depthlist2m">
+							<li><a href="#">피너츠</a></li>
+							<li><a href="#">어린왕자</a></li>
+							<li><a href="#">둘리</a></li>
+							<li><a href="#">삐삐</a></li>
+							<li><a href="#">앨리스</a></li>
+							<li><a href="#">빨강머리앤</a></li>
+							<li><a href="#">우주</a></li>
+							<li><a href="#">고양이</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">커피</a>
+						<ul class="depthlist2m">
+							<li><a href="#">원두</a></li>
+							<li><a href="#">드립백</a></li>
+							<li><a href="#">콜드브루</a></li>
+							<li><a href="#">커피도구</a></li>
+						</ul>
+					</li>
+					<li><a href="#">베스트셀러</a></li>
+					<li><a href="#">생활용품연구소</a></li>
+					<li><a href="#">알라딘 문방구</a></li>
+					<li><a href="#">굿즈한정할인</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="./usedSubpage.html">중고샵+중고매장</a>
+				<ul class="depthlist1m">
+					<li>
+						<a href="#">온라인 중고샵</a>
+						<ul class="depthlist2m">
+							<li>
+								<a href="#">중고 국내도서</a>
+								<ul class="depthlist3m">
+									<li><a href="#">가정/요리/뷰티</a></li>
+									<li><a href="#">건강/취미/레저</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">고전</a></li>
+									<li><a href="#">과학</a></li>
+									<li><a href="#">대학교재/전문서적</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">달력/기타</a></li>
+									<li><a href="#">사회과학</a></li>
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">수험서/자격증</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">에세이</a></li>
+									<li><a href="#">여행</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">외국어</a></li>
+									<li><a href="#">유아</a></li>
+									<li><a href="#">인문학</a></li>
+									<li><a href="#">자기계발</a></li>
+									<li><a href="#">장르소설</a></li>
+									<li><a href="#">잡지</a></li>
+									<li><a href="#">전집/중고전집</a></li>
+									<li><a href="#">종교/역학</a></li>
+									<li><a href="#">좋은부모</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">컴퓨터/모바일</a></li>
+									<li><a href="#">초등학교참고서</a></li>
+									<li><a href="#">중학교참고서</a></li>
+									<li><a href="#">고등학교참고서</a></li>
+									<li><a href="#">고서/희귀본</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">중고 외국도서</a>
+								<ul class="depthlist3m">
+									<li><a href="#">가정/원예/인테리어</a></li>
+									<li><a href="#">가족/관계</a></li>
+									<li><a href="#">건강/스포츠</a></li>
+									<li><a href="#">건축/디자인</a></li>
+									<li><a href="#">경제경영</a></li>
+									<li><a href="#">공예/취미/수집</a></li>
+									<li><a href="#">교육/자료</a></li>
+									<li><a href="#">기술공학</a></li>
+									<li><a href="#">달력/다이어리/연감</a></li>
+									<li><a href="#">만화</a></li>
+									<li><a href="#">법률</a></li>
+									<li><a href="#">소설/시/희곡</a></li>
+									<li><a href="#">수험서</a></li>
+									<li><a href="#">어린이</a></li>
+									<li><a href="#">언어학</a></li>
+									<li><a href="#">에세이</a></li>
+									<li><a href="#">여행</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">예술/대중문화</a></li>
+									<li><a href="#">오디오북</a></li>
+									<li><a href="#">요리</a></li>
+									<li><a href="#">유머</a></li>
+									<li><a href="#">의학</a></li>
+									<li><a href="#">인문/사회</a></li>
+									<li><a href="#">자기계발</a></li>
+									<li><a href="#">과학/수학/생태</a></li>
+									<li><a href="#">전기/자서전</a></li>
+									<li><a href="#">종교/명상/점술</a></li>
+									<li><a href="#">청소년</a></li>
+									<li><a href="#">컴퓨터</a></li>
+									<li><a href="#">해외잡지</a></li>
+									<li><a href="#">ELT/어학/사전</a></li>
+									<li><a href="#">기타 언어권 도서</a></li>
+									<li><a href="#">일본 도서</a></li>
+									<li><a href="#">중국 도서</a></li>
+									<li><a href="#">독일 도서</a></li>
+									<li><a href="#">스페인 도서</a></li>
+									<li><a href="#">한국관련도서</a></li>
+									<li><a href="#">문구/비도서</a></li>
+									<li><a href="#">고서/희귀본</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">중고 음반</a>
+								<ul class="depthlist3m">
+									<li><a href="#">가요</a></li>
+									<li><a href="#">국악</a></li>
+									<li><a href="#">월드뮤직</a></li>
+									<li><a href="#">재즈</a></li>
+									<li><a href="#">종교/명상/기타</a></li>
+									<li><a href="#">클래식</a></li>
+									<li><a href="#">팝</a></li>
+									<li><a href="#">해외구매</a></li>
+									<li><a href="#">J-Pop</a></li>
+									<li><a href="#">Lp</a></li>
+									<li><a href="#">O.S.T.</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">중고 DVD/블루레이</a>
+								<ul class="depthlist3m">
+									<li><a href="#">드라마/코미디</a></li>
+									<li><a href="#">박스세트</a></li>
+									<li><a href="#">블루레이</a></li>
+									<li><a href="#">TV 시리즈</a></li>
+									<li><a href="#">제작국가별</a></li>
+									<li><a href="#">VHS (비디오테이프)</a></li>
+									<li><a href="#">VCD</a></li>
+									<li><a href="#">액션/어드벤쳐</a></li>
+									<li><a href="#">S.F/판타지</a></li>
+									<li><a href="#">공포/스릴러</a></li>
+									<li><a href="#">음악DVD</a></li>
+									<li><a href="#">애니메이션</a></li>
+									<li><a href="#">유아/아동</a></li>
+									<li><a href="#">교양/다큐멘터리</a></li>
+									<li><a href="#">취미/스포츠</a></li>
+									<li><a href="#">성인</a></li>
+								</ul>
+							</li>
+							<li><a href="#">많이 판매된 중고</a></li>
+							<li><a href="#">역대 베스트 중고</a></li>
+							<li><a href="#">새로 등록된 상품</a></li>
+							<li><a href="#">2000원샵</a></li>
+							<li><a href="#">최종 땡처리</a></li>
+							<li><a href="#">단골 판매자 보기</a></li>
+							<li>
+								<a href="#">판매자매니저</a>
+								<ul class="depthlist3m">
+									<li><a href="#">알라딘에 중고팔기</a></li>
+									<li><a href="#">판매가능여부/판매가격확인하기</a></li>
+									<li><a href="#">온라인중고샵 FAQ</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">중고매장</a>
+						<ul class="depthlist2m">
+							<li>
+								<a href="#">서울</a>
+								<ul class="depthlist3m">
+									<li><a href="#">가로수길점</a></li>
+									<li><a href="#">강남점</a></li>
+									<li><a href="#">강서홈플러스점</a></li>
+									<li><a href="#">건대점</a></li>
+									<li><a href="#">노원역점</a></li>
+									<li><a href="#">대학로점</a></li>
+									<li><a href="#">서울대입구역점</a></li>
+									<li><a href="#">수유점</a></li>
+									<li><a href="#">신림점</a></li>
+									<li><a href="#">신촌점</a></li>
+									<li><a href="#">연신내점</a></li>
+									<li><a href="#">영등포점</a></li>
+									<li><a href="#">이수역점</a></li>
+									<li><a href="#">잠실새내역점</a></li>
+									<li><a href="#">잠실롯데</a></li>
+									<li><a href="#">월드타워점</a></li>
+									<li><a href="#">종로점</a></li>
+									<li><a href="#">합정점</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">경기</a>
+								<ul class="depthlist3m">
+									<li><a href="#">동탄점</a></li>
+									<li><a href="#">동탄2</a></li>
+									<li><a href="#">하나로마트점</a></li>
+									<li><a href="#">부천점</a></li>
+									<li><a href="#">분당서현점</a></li>
+									<li><a href="#">분당야탑점</a></li>
+									<li><a href="#">산본점</a></li>
+									<li><a href="#">수원시청역점</a></li>
+									<li><a href="#">수원점</a></li>
+									<li><a href="#">의정부홈플러스점</a></li>
+									<li><a href="#">일산점</a></li>
+									<li><a href="#">화정점</a></li>
+									<li><a href="#">평택점</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">광역시 등</a>
+								<ul class="depthlist3m">
+									<li><a href="#">광주상무점</a></li>
+									<li><a href="#">광주충장로점</a></li>
+									<li><a href="#">김해점</a></li>
+									<li><a href="#">대구동성로점</a></li>
+									<li><a href="#">대구상인점점</a></li>
+									<li><a href="#">대전시청역점</a></li>
+									<li><a href="#">대전은행점</a></li>
+									<li><a href="#">동대구역점</a></li>
+									<li><a href="#">부산경성대점</a></li>
+									<li><a href="#">부경대역점</a></li>
+									<li><a href="#">부산덕천점</a></li>
+									<li><a href="#">부산서면점</a></li>
+									<li><a href="#">부산센텀점</a></li>
+									<li><a href="#">울산점</a></li>
+									<li><a href="#">인천계산점</a></li>
+									<li><a href="#">인천구월점</a></li>
+									<li><a href="#">인천송도점</a></li>
+									<li><a href="#">전주점</a></li>
+									<li><a href="#">마산합성점</a></li>
+									<li><a href="#">창원상남점</a></li>
+									<li><a href="#">천안신불당점</a></li>
+									<li><a href="#">청주점</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">커피매장</a>
+								<ul class="depthlist3m">
+									<li><a href="#">매장메뉴</a></li>
+									<li><a href="#">스탬프이벤트</a></li>
+								</ul>
+							</li>
+							<li><a href="#">중고매장 FAQ</a></li>
+							<li><a href="#">판매가이드</a></li>
+							<li><a href="#">판매가능여부/판매가격확인하기</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">우주점</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="./music+bluelaySubpage.html">음반+블루레이</a>
+				<ul class="depthlist1m">
+					<li>
+						<a href="./music+bluelaySubpage.html?mnb=0">음반</a>
+						<ul class="depthlist2m">
+							<li><a href="#">가요</a></li>
+							<li><a href="#">POP</a></li>
+							<li><a href="#">클래식</a></li>
+							<li><a href="#">재즈</a></li>
+							<li><a href="#">월드뮤직</a></li>
+							<li><a href="#">J-POP</a></li>
+							<li><a href="#">OST</a></li>
+							<li><a href="#">국악</a></li>
+							<li><a href="#">종교,명상,기타</a></li>
+							<li><a href="#">Music DVD</a></li>
+							<li><a href="#">LP</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./music+bluelaySubpage.html?mnb=1">블루레이</a>
+						<ul class="depthlist2m">
+							<li>
+								<a href="#">블루레이</a>
+								<ul class="depthlist3m">
+									<li><a href="#">3D 블루레이</a></li>
+									<li><a href="#">공포/스릴러</a></li>
+									<li><a href="#">다큐멘터리</a></li>
+									<li><a href="#">드라마/코미디</a></li>
+									<li><a href="#">애니메이션</a></li>
+									<li><a href="#">액션/SF</a></li>
+									<li><a href="#">음악</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">DVD</a>
+								<ul class="depthlist3m">
+									<li><a href="#">드라마/코미디</a></li>
+									<li><a href="#">TV시리즈</a></li>
+									<li><a href="#">액션/어드벤쳐</a></li>
+									<li><a href="#">S.F/판타지</a></li>
+									<li><a href="#">공포/스릴러</a></li>
+									<li><a href="#">애니메이션</a></li>
+									<li><a href="#">음악/DVD</a></li>
+									<li><a href="#">취미/스포츠</a></li>
+									<li><a href="#">교양/다큐멘터리</a></li>
+									<li><a href="#">유아/아동</a></li>
+									<li><a href="#">박스세트</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="./librarySubpage.html">서재</a>
+				<ul class="depthlist1m">
+					<li>
+						<a href="#">서재</a>
+						<ul class="depthlist2m">
+							<li><a href="#">알라딘서재</a></li>
+							<li><a href="#">나의서재</a></li>
+						</ul>
+					</li>
+					<li><a href="#">북플</a></li>
+				</ul>
+			</li>
+			</ul>
+		</div>
+		<div class="toggleBar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		</div>
+	</header>
+	<div class="content">
+		<dl class="category bookSubpage">
+			<dt>
+				<h2>국내도서</h2>
+			</dt>
+			<dd>
+				<div class="banner swiper">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/inBookBanner_01.jpg" alt="김토끼 다이어리 <오늘도 한 걸음>구입 시, 김토끼 시리얼볼 혼자서는 외롭고 힘들지만 함께라면 거뜬히 갈 수 있어!"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/inBookBanner_02.jpg" alt="공무원 수험서 브랜드전 차원이 다른 메가 공무원으로 합격 메가 공무원 대상도서 1권 이상 교재 구매 시 중철 노트 (이벤트 기간: 11월 4일 15시 ~ 선착순 한정수량)"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/inBookBanner_03.jpg" alt="강은주의 '인생 수업' 우리의 첫 미술사 수업 그리는 여성 미니 금장 노트 <우리의 첫 미술사 수업> 등 이봄 도서 포함 국내도서 2만원 이상 구매 시 미니 금장 노트 (택1) 이벤트 기간 : 11월 14일 ~ 선착순 한정수량"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/inBookBanner_04.jpg" alt="세계문학 읽는 가을 어린 왕자.체셔 고양이. 피너츠 탁상시계(택1) 이벤트 대상도서 1권 이상 포함 소설/시/희곡 2만원 이상 구매 시 이벤트 기간: 11월 7일 ~ 사은품 소진 시"></figure></a></li>
+					</ul>
+					<button class="swiper-button-prev"><figure><img src="./img/arrow_left.png" alt="이전 화살표"></figure></button>
+					<button class="swiper-button-next"><figure><img src="./img/arrow_right.png" alt="다음 화살표"></figure></button>
+				</div>
+				<div class="books">
+					<dl>
+						<dt>
+							<h2>2022년 경제경영 자기계발 화제작</h2><a href="#">전체보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=46">
+										<figure><img src="./img/inBook01_01.jpg" alt="우리는 어디서 살아야 하는가"></figure>
+										<h3>우리는 어디서 살아야 하는가</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=47">
+										<figure><img src="./img/inBook01_02.jpg" alt="믹스 MIX"></figure>
+										<h3>믹스 MIX</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=48">
+										<figure><img src="./img/inBook01_03.jpg" alt="빠르게 실패하기"></figure>
+										<h3>빠르게 실패하기</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=49">
+										<figure><img src="./img/inBook01_04.jpg" alt="알고 있다는 착각"></figure>
+										<h3>알고 있다는 착각</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>리커버 에디션</h2><a href="#">전체보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=50">
+										<figure><img src="./img/inBook02_01.jpg" alt="심신 단련(리커버)"></figure>
+										<h3>심신 단련(리커버)</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=51">
+										<figure><img src="./img/inBook02_02.jpg" alt="말하기를 말하기(리커버)"></figure>
+										<h3>말하기를 말하기(리커버)</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=52">
+										<figure><img src="./img/inBook02_03.jpg" alt="친애하는 나의 집에게 (리커버)"></figure>
+										<h3>친애하는 나의 집에게 (리커버)</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=53">
+										<figure><img src="./img/inBook02_04.jpg" alt="부지런한 사랑 (리커버)"></figure>
+										<h3>부지런한 사랑 (리커버)</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<ul class="categoryGenre">
+						<li><a href="#">가정/요리/뷰티</a></li>
+						<li><a href="#">건강/취미/레저</a></li>
+						<li><a href="#">경제경영</a></li>
+						<li><a href="#">고전</a></li>
+						<li><a href="#">달력/기타</a></li>
+						<li><a href="#">과학</a></li>
+						<li><a href="#">대학교재</a></li>
+						<li><a href="#">만화</a></li>
+						<li><a href="#">사회과학</a></li>
+						<li><a href="#">소설/시/희곡</a></li>
+						<li><a href="#">에세이</a></li>
+						<li><a href="#">수험서/자격증</a></li>
+						<li><a href="#">공무원 수험서</a></li>
+						<li><a href="#">어린이</a></li>
+						<li><a href="#">유아</a></li>
+						<li><a href="#">여행</a></li>
+						<li><a href="#">역사</a></li>
+						<li><a href="#">예술/대중문화</a></li>
+						<li><a href="#">외국어</a></li>
+						<li><a href="#">인문학</a></li>
+						<li><a href="#">자기계발</a></li>
+						<li><a href="#">잡지</a></li>
+						<li><a href="#">장르소설</a></li>
+						<li><a href="#">전집/중고전집</a></li>
+						<li><a href="#">종교/역학</a></li>
+						<li><a href="#">좋은부모</a></li>
+						<li><a href="#">청소년</a></li>
+						<li><a href="#">초등참고서</a></li>
+						<li><a href="#">중학교참고서</a></li>
+						<li><a href="#">고등학교참고서</a></li>
+						<li><a href="#">컴퓨터/모바일</a></li>
+					</ul>
+					<dl>
+						<dt>
+							<h2>새로 나온 책</h2>
+						</dt>
+						<dd>
+							<dl class="btnList inBook">
+								<dt class="active"><h2>주목 신간</h2></dt>
+								<dd class="active">
+									<ul>
+										<li>
+											<a href="./detailPage.html?itemId=54">
+												<figure><img src="./img/inBook03_01.jpg" alt="내 통장 구제하기 프로젝트"></figure>
+												<h3>경제경영</h3>
+												<h3>내 통장 구제하기 프로젝트</h3>
+												<p>이삭 지음 | 알에이치코리아(RHK)</p>
+											</a>
+										</li>
+										<li>
+											<a href="./detailPage.html?itemId=55">
+												<figure><img src="./img/inBook03_02.jpg" alt="나의 빛을 가리지 말라"></figure>
+												<h3>사회과학</h3>
+												<h3>나의 빛을 가리지 말라</h3>
+												<p>제임스 윌리엄스 지음, 박세연 옮김, 전병근 해제 | 머스</p>
+											</a>
+										</li>
+										<li>
+											<a href="./detailPage.html?itemId=56">
+												<figure><img src="./img/inBook03_03.jpg" alt="불의 후계자"></figure>
+												<h3>소설/시/희곡</h3>
+												<h3>불의 후계자</h3>
+												<p>사라 제이 마스 지음, 공보경 옮김 | 아테나</p>
+											</a>
+										</li>
+										<li>
+											<a href="./detailPage.html?itemId=57">
+												<figure><img src="./img/inBook03_04.jpg" alt="이것저것들의 하루 4: 우주 똥, 태양풍 그리고 빅뱅의 하루"></figure>
+												<h3>어린이</h3>
+												<h3>이것저것들의 하루 4: 우주 똥, 태양풍 그리고 빅뱅의 하루</h3>
+												<p>마이크 바필드 지음, 제스 브래들리 그림, 김현희 옮김</p>
+											</a>
+										</li>
+									</ul>
+								</dd>
+								<dt><h2>지금, 화제!</h2></dt>
+								<dd>
+									<ul>
+										<li>
+											<a href="./detailPage.html?itemId=58">
+												<figure><img src="./img/inBook04_01.jpg" alt="넘버스 스틱!"></figure>
+												<h3>경제경영</h3>
+												<h3>넘버스 스틱!</h3>
+												<p>칩 히스. 칼라 스타 지음, 박슬라 옮김 | 웅진지식하우스</p>
+											</a>
+										</li>
+										<li>
+											<a href="./detailPage.html?itemId=59">
+												<figure><img src="./img/inBook04_02.jpg" alt="도시 가나다"></figure>
+												<h3>유아</h3>
+												<h3>도시 가나다</h3>
+												<p>윤정미 지음 | 향출판사</p>
+											</a>
+										</li>
+										<li>
+											<a href="./detailPage.html?itemId=60">
+												<figure><img src="./img/inBook04_03.jpg" alt="100개의 미생물, 우주와 만나다"></figure>
+												<h3>과학</h3>
+												<h3>100개의 미생물, 우주와 만나다</h3>
+												<p>플로리안 프라이슈테터 헬무트 융비르트 지음, 유영미 ...</p>
+											</a>
+										</li>
+										<li>
+											<a href="./detailPage.html?itemId=61">
+												<figure><img src="./img/inBook04_04.jpg" alt="한편 9호 : 외모"></figure>
+												<h3>인문학</h3>
+												<h3>한편 9호 : 외모</h3>
+												<p>민음사 편집부 엮음 | 민음사</p>
+											</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>신간 베스트</h2><a href="#">전체보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=62">
+										<figure><img src="./img/inBook05_01.jpg" alt="원펀맨 One Punch Man 26"></figure>
+										<h3>원펀맨 One Punch Man 26</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=63">
+										<figure><img src="./img/inBook05_02.jpg" alt="22 똥괭이네 2023 월간주간 캘린더"></figure>
+										<h3>22 똥괭이네 2023 월간주간캘린더</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=64">
+										<figure><img src="./img/inBook05_03.jpg" alt="이토록 평범한 미래"></figure>
+										<h3>이토록 평범한 미래</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=65">
+										<figure><img src="./img/inBook05_04.jpg" alt="올드패션 베이킹북"></figure>
+										<h3>올드패션 베이킹북</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>정가인하/할인/쿠폰</h2><a href="#">더보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=66">
+										<figure><img src="./img/inBook06_01.jpg" alt="2023년 마티스가 취한 보들레르의 악의 꽃 탁상달력"></figure>
+										<h3>2023년 마티스가 취한 보들레르의 악의 꽃 탁상달력</h3>
+										<span>40% 할인</span>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=67">
+										<figure><img src="./img/inBook06_02.jpg" alt="2023 쓰면 쓸 수록 돈이 모이는 가계부"></figure>
+										<h3>2023 쓰면 쓸 수록 돈이 모이는 가계부</h3>
+										<span>30% 할인</span>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=68">
+										<figure><img src="./img/inBook06_03.jpg" alt="하루 7분 : 뱃살 공략 트레이닝"></figure>
+										<h3>하루 7분 : 뱃살 공략 트레이닝</h3>
+										<span>2,970원</span>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=69">
+										<figure><img src="./img/inBook06_04.jpg" alt="악스트 Axt 2022.09.10"></figure>
+										<h3>악스트 Axt 2022.09.10</h3>
+										<span>1000원 쿠폰</span>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="event">
+						<dt>
+							<h2>이벤트</h2><a href="#">더보기 →</a>
+						</dt>
+						<dd class="swiper eventBanner">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_01.jpg" alt="<나의 문화유산 답사기:서울편>세트 2023년 유홍준의 문화유산 달력"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_02.jpg" alt="<우리의 첫 미술사 수업>그리는 여성 미니 금장 노트"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_03.jpg" alt="커트 보니것 탄생 100주년 작가전 파우치 유리컵 키링 배지"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_04.jpg" alt="독서 습관을 바꾼 기적의 동화책 <전천당 16> 마네키네코 손수건"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_05.jpg" alt="화제의 사계절 에세이 깅엄체크 3단 우양산"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_06.jpg" alt="<카모메 식당> 무레 요코 <아이 없는 부부와 고양이>마우스 패드"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_07.jpg" alt="9.24 세계기후행동의 날 대나무 칫솔"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_08.jpg" alt="2022 노벨문학상, 당신의 선택은? 투표 시 적립금 추첨"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_09.jpg" alt="정들만큼 친근한 <...K-요괴 도감>일러스트 파우치"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_10.jpg" alt="<다락방의 미친 여자>MadWoman 성냥"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_11.jpg" alt="키키와 진아의 <2023오늘을 채우는 일력>일러스트 접시"></figure></a></li>
+								<li class="swiper-slide"><a href="#"><figure><img src="./img/eventSub_12.jpg" alt="2022 뉴베리상 수상작 <마지막 이야기 전달자> 유리컵"></figure></a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>'돈슐랭'김영준의 책들</h2>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=70">
+										<figure><img src="./img/inBook07_01.jpg" alt="지금 살아남은 승자의 이유"></figure>
+										<h3>지금 살아남은 승자의 이유</h3>
+										<p>김영준 지음 / 김영사</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=71">
+										<figure><img src="./img/inBook07_02.jpg" alt="골목의 전쟁"></figure>
+										<h3>골목의 전쟁</h3>
+										<p>김영준 지음 / 스마트북스</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=72">
+										<figure><img src="./img/inBook07_03.jpg" alt="멀티팩터"></figure>
+										<h3>멀티팩터</h3>
+										<p>김영준 지음 / 스마트북스</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=73">
+										<figure><img src="./img/inBook07_04.jpg" alt="사소한 것들의 현대사"></figure>
+										<h3>사소한 것들의 현대사</h3>
+										<p>김태권 외 지음, 팩트스토리 기획/한겨레출판</p>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>소외된 이들이 창조한 신세계</h2>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=74">
+										<figure><img src="./img/inBook08_01.jpg" alt="지구별 인간"></figure>
+										<h3>지구별 인간</h3>
+										<p>무라타 사야카 지음, 최고은 옮김 / 비채</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=75">
+										<figure><img src="./img/inBook08_02.jpg" alt="편의점 인간"></figure>
+										<h3>편의점 인간</h3>
+										<p>무라타 사야카 지음, 김석희 옮김 / 살림</p>
+									</a>
+								</li>
+								<li>
+									<a href="#" onclick="alert(`19세 이상만 이용할 수 있는 상품입니다. 로그인해주세요.`)">
+										<figure><img src="./img/inBook08_03.jpg" alt="19세 이상만 이용할 수 있는 상품입니다. 로그인해주세요."></figure>
+										<h3>무성 교실</h3>
+										<p>무라타 사야카 지음, 최고은 옮김 / 하빌리스</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=76">
+										<figure><img src="./img/inBook08_04.jpg" alt="적의를 담아 애정을 고백하는 법"></figure>
+										<h3>적의를 담아 애정을 고백하는 법</h3>
+										<p>무라타 사야카 지음. 최고은 옮김 / 살림</p>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>지금 주목할만한 만화책</h2>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=77">
+										<figure><img src="./img/inBook09_01.jpg" alt="인생은 두 컷 만화"></figure>
+										<h3>인생은 두 컷 만화</h3>
+										<p>누누씨 지음 / 중앙 books(중앙북스)</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=78">
+										<figure><img src="./img/inBook09_02.jpg" alt="뒤늦은 답장"></figure>
+										<h3>뒤늦은 답장</h3>
+										<p>정원 지음 / 창비</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=79">
+										<figure><img src="./img/inBook09_03.jpg" alt="심해수 6~9 특별한정판 세트 - 전4권"></figure>
+										<h3>심해수 6~9 특별한정판 세트 - 전4권</h3>
+										<p>이경탁 지음, 노미영 그림 / 마음의 숲</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=80">
+										<figure><img src="./img/inBook09_04.jpg" alt="하이큐!! 엽서 셀렉션 : 네코마 고교"></figure>
+										<h3>하이큐!! 엽서 셀렉션 : 네코마 고교</h3>
+										<p>오리잡화 편집부 지음 / 오리잡화</p>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</dd>
+			<dt>
+				<h2>해외도서</h2>
+			</dt>
+			<dd>
+				<div class="banner swiper">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/outBookBanner_01.jpg" alt="BTS BTS TinyTan 넨도로이드 최대 5천원 할인 쿠폰! 2017년 11월 27일 ~ 2022년 11월 30일"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/outBookBanner_02.jpg" alt="이달의 특가 최대 90% 할인 미니 크로스백 · 양장노트 에코백 5만원 이상 2개 선택 3만원 이상 1개 선택 이벤트 기간 : 2022년 10월 20일 ~ 소진 시까지"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/outBookBanner_03.jpg" alt="Wiley Wiley 분야별 베스트 30% 할인 + 텀블러 대상도서 5만원 이상 구매 시, Wiley 텀블러 이벤트 기간 : 2022. 11. 10 ~ 12. 31"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/outBookBanner_04.jpg" alt="화제의 번역서 원서로 읽기 구매 금액별 피너츠 굿즈 최대 5천원 할인쿠폰 외국도서 대학교재 5만원 이상 2개 선택 3만원 이상 1개 선택 이벤트 기간 : 8월 16일 ~ 선착순 한정수량"></figure></a></li>
+					</ul>
+					<button class="swiper-button-prev"><figure><img src="./img/arrow_left.png" alt="이전 화살표"></figure></button>
+					<button class="swiper-button-next"><figure><img src="./img/arrow_right.png" alt="다음 화살표"></figure></button>
+				</div>
+				<div class="books">
+					<dl>
+						<dt>
+							<h2>주간 편집회의</h2>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=81">
+										<figure><img src="./img/outBook01_01.jpg" alt="배드 가이즈 공식 아트북"></figure>
+										<h3>배드 가이즈 공식 아트북</h3>
+										<p>The Art of DreamWorks the Bad Guys - 배드 ...</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=82">
+										<figure><img src="./img/outBook01_02.jpg" alt="콜린 후버 <우리가 끝이야> 원서"></figure>
+										<h3>콜린 후버 &#60;우리가 끝이야&#62; 원서</h3>
+										<p>It Ends With Us : The emotional #1 Sunday ...</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=83">
+										<figure><img src="./img/outBook01_03.jpg" alt="해리포터 25주년 초판 표지"></figure>
+										<h3>해리포터 25주년 초판 표지</h3>
+										<p>Harry Potter and the Philosopher's Stone -...</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=84">
+										<figure><img src="./img/outBook01_04.jpg" alt="주술회전 2022년 캘린더"></figure>
+										<h3>주술회전 2022년 캘린더</h3>
+										<p>「呪術廻戰」コミックカレンダ- 2022</p>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>특가도서</h2><a href="#">더보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=85">
+										<figure><img src="./img/outBook02_01.jpg" alt="Kipper Collection 10권 세트 (Paperback 10권, 영국판)"></figure>
+										<h3>Kipper Collection 10권 세트 (Paperback 10권, 영국판)</h3>
+										<p>24,800원</p><span>(80%)</span>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=86">
+										<figure><img src="./img/outBook02_02.jpg" alt="I Love 10 Picture Books Set (Paperback 10권)"></figure>
+										<h3>I Love 10 Picture Books Set (Paperback 10권)</h3>
+										<p>25,200원</p><span>(80%)</span>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=87">
+										<figure><img src="./img/outBook02_03.jpg" alt="My Very First Story Time 10권 세트 (Paperback 10권)"></figure>
+										<h3>My Very First Story Time 10권 세트 (Paperback 10권)</h3>
+										<p>25,200원</p><span>(80%)</span>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=88">
+										<figure><img src="./img/outBook02_04.jpg" alt="페파피그 원서 그림책 컬렉션 50권 박스 세트(블루) : The Ultimate Peppa Pig Collection 50 Book Box Set (Paperback, 영국판)"></figure>
+										<h3> 페파피그 원서 그림책 컬렉션 50권 박스 세트(블루) : The Ultimate Peppa Pig Collection 50 Book Box Set (Paperback, 영국판)</h3>
+										<p>51,100원</p><span>(0%)</span>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>영미도서</h2>
+						</dt>
+						<dd>
+							<ul class="categoryGenre">
+								<li><a href="#">ELT/어학/사전</a></li>
+								<li><a href="#">가정/원예/인테리어</a></li>
+								<li><a href="#">가족/관계</a></li>
+								<li><a href="#">건강/스포츠</a></li>
+								<li><a href="#">건축/디자인</a></li>
+								<li><a href="#">경제경영</a></li>
+								<li><a href="#">공예/취미/수집</a></li>
+								<li><a href="#">교육/자료</a></li>
+								<li><a href="#">기술공학</a></li>
+								<li><a href="#">달력/다이어리/연감</a></li>
+								<li><a href="#">만화</a></li>
+								<li><a href="#">법률</a></li>
+								<li><a href="#">소설/시/희곡</a></li>
+								<li><a href="#">수험서</a></li>
+								<li><a href="#">어린이</a></li>
+								<li><a href="#">언어학</a></li>
+								<li><a href="#">에세이</a></li>
+								<li><a href="#">여행</a></li>
+								<li><a href="#">역사</a></li>
+								<li><a href="#">예술/대중문화</a></li>
+								<li><a href="#">오디오북</a></li>
+								<li><a href="#">요리</a></li>
+								<li><a href="#">유머/게임</a></li>
+								<li><a href="#">의학</a></li>
+								<li><a href="#">인문/사회</a></li>
+								<li><a href="#">자기계발</a></li>
+								<li><a href="#">자연과학</a></li>
+								<li><a href="#">전기/자서전</a></li>
+								<li><a href="#">종교/명상/점술</a></li>
+								<li><a href="#">청소년</a></li>
+								<li><a href="#">컴퓨터</a></li>
+								<li><a href="#">해외잡지</a></li>
+								<li><a href="#">한국관련도서</a></li>
+								<li><a href="#">기타 언어권 도서</a></li>
+								<li><a href="#">일본 도서</a></li>
+								<li><a href="#">중국 도서</a></li>
+								<li><a href="#">독일 도서</a></li>
+								<li><a href="#">스페인 도서</a></li>
+							</ul>
+						</dd>
+						<dt>
+							<h2>일본도서</h2>
+						</dt>
+						<dd>
+							<ul class="categoryGenre">
+								<li><a href="#">라이트노벨</a></li>
+								<li><a href="#">애니메이션 굿즈</a></li>
+								<li><a href="#">어린이</a></li>
+								<li><a href="#">예술/건축/디자인</a></li>
+								<li><a href="#">외국어학습/교육</a></li>
+								<li><a href="#">이학/공학/컴퓨터</a></li>
+								<li><a href="#">인문/사회/논픽션</a></li>
+								<li><a href="#">지브리 작품전</a></li>
+								<li><a href="#">캘린더</a></li>
+								<li><a href="#">문학</a></li>
+								<li><a href="#">잡지</a></li>
+								<li><a href="#">코믹/게임</a></li>
+								<li><a href="#">실용/취미/생활</a></li>
+								<li><a href="#">엔터테인먼트</a></li>
+								<li><a href="#">문고/신서</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>어린이 ELT 베스트</h2>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=89">
+										<figure><img src="./img/outBook03_01.jpg" alt="엄마표 영어 베스트 of 베스트"></figure>
+										<h3>엄마표 영어 베스트 of 베스트</h3>
+										<p>Smart Phonics 1 : Student Book (Paperback + Hybrid CD, New Edition)</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=90">
+										<figure><img src="./img/outBook03_02.jpg" alt="옥스포드대학출판부에서 펴낸 코스북의 대표주자"></figure>
+										<h3>옥스포드대학출판부에서 펴낸 코스북의 대표주자</h3>
+										<p>(4판)Let's Go 1: Student Book (Paperback + CD, 4th Edition)</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=91">
+										<figure><img src="./img/outBook03_03.jpg" alt="30에서 300까지 레벨별로 실력을 다지는 독해 교재"></figure>
+										<h3>30에서 300까지 레벨별로 실력을 다지는 독해 교재</h3>
+										<p>Bricks Reading 150 Level 1 (Student Book + Workbook + eBook)</p>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=92">
+										<figure><img src="./img/outBook03_04.jpg" alt="퍼스트에서 넥스트까지 검증된 문법 교재"></figure>
+										<h3>퍼스트에서 넥스트까지 검증된 문법 교재</h3>
+										<p>My First Grammar 1 : Student Book (Paperback)</p>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>어린이 인기 시리즈 더보기</h2><a href="#">더보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook04_01.jpg" alt="노부영"></figure>
+										<h3>노부영</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook04_02.jpg" alt="디즈니 펀투리드"></figure>
+										<h3>디즈니 펀투리드</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook04_03.jpg" alt="매직트리하우스"></figure>
+										<h3>매직트리하우스</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook04_04.jpg" alt="픽토리 영어동화"></figure>
+										<h3>픽토리 영어동화</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>일본도서 인기 시리즈</h2><a href="#">더보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook05_01.jpg" alt="넨도로이드"></figure>
+										<h3>넨도로이드</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook05_02.jpg" alt="하이큐 코믹"></figure>
+										<h3>하이큐 코믹</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook05_03.jpg" alt="부록이 좋은 무크지"></figure>
+										<h3>부록이 좋은 무크지</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook05_04.jpg" alt="핫토이"></figure>
+										<h3>핫토이</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>수준별 읽기 : Lexileⓡ지수더보기</h2>
+						</dt>
+						<dd>
+							<ul class="categoryGenre">
+								<li><a href="#">(BR-200L)</a></li>
+								<li><a href="#">(200L-500L)</a></li>
+								<li><a href="#">(470L-620L)</a></li>
+								<li><a href="#">(590L-790L)</a></li>
+								<li><a href="#">(695L-910L)</a></li>
+								<li><a href="#">(805L-980L)</a></li>
+								<li><a href="#">(900L-1040L)</a></li>
+								<li><a href="#">(955L-1090L)</a></li>
+								<li><a href="#">(1025L-1160L)</a></li>
+								<li><a href="#">(1095L-1230L)</a></li>
+								<li><a href="#">(1155L-1310L)</a></li>
+								<li><a href="#">(1215L-1360L)</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<h2>영미도서 특가</h2><a href="#">더보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook06_01.jpg" alt="케임브리지 IELTS"></figure>
+										<h3>케임브리지 IELTS</h3>
+										<p>최대 35% 할인</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook06_02.jpg" alt="스튜디오 지브리 컬렉션"></figure>
+										<h3>스튜디오 지브리 컬렉션</h3>
+										<p>최대 31% 할인</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook06_03.jpg" alt="옥스포드 월드 클래식"></figure>
+										<h3>옥스포드 월드 클래식</h3>
+										<p>30%할인</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBook06_04.jpg" alt="와일리 Dummies 시리즈 30주년"></figure>
+										<h3>와일리 Dummies 시리즈 30주년</h3>
+										<p>30% 할인</p>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="btnList outBook">
+						<dt class="active">
+							<h2>영미도서 베스트</h2>
+						</dt>
+						<dd class="active">
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=93">
+										<figure><img src="./img/outBook07_01.jpg" alt="The Little Prince (Paperback, ..."></figure>
+										<h3>The Little Prince (Paperback, ...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=94">
+										<figure><img src="./img/outBook07_02.jpg" alt="Wonder (Paperback, 미국판, Int..."></figure>
+										<h3>Wonder (Paperback, 미국판, Int...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=95">
+										<figure><img src="./img/outBook07_03.jpg" alt="Pachinko (Paperback)"></figure>
+										<h3>Pachinko (Paperback)</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=96">
+										<figure><img src="./img/outBook07_04.jpg" alt="How to Steal a Dog (Paperback,..."></figure>
+										<h3>How to Steal a Dog (Paperback,...</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+						<dt>
+							<h2>일본도서 베스트</h2>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=97">
+										<figure><img src="./img/outBook08_01.jpg" alt="たのしい幼稚園 2022年 11 月 號 ..."></figure>
+										<h3>たのしい幼稚園 2022年 11 月 號 ...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=98">
+										<figure><img src="./img/outBook08_02.jpg" alt="모브사이코100 III 누이구루미 스..."></figure>
+										<h3>모브사이코100 III 누이구루미 스...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=99">
+										<figure><img src="./img/outBook08_03.jpg" alt="모브사이코100 III 누이구루미 스..."></figure>
+										<h3>모브사이코100 III 누이구루미 스...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=100">
+										<figure><img src="./img/outBook08_04.jpg" alt="ゼクシィ首都圈 2022年 11月號"></figure>
+										<h3>ゼクシィ首都圈 2022年 11月號</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+						<dt>
+							<h2>번역서 베스트</h2>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=101">
+										<figure><img src="./img/outBook09_01.jpg" alt="Fail Fast, Fail Often: How ..."></figure>
+										<h3>Fail Fast, Fail Often: How ...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=102">
+										<figure><img src="./img/outBook09_02.jpg" alt="Wondrous Strange : The Life..."></figure>
+										<h3>Wondrous Strange : The Life...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=103">
+										<figure><img src="./img/outBook09_03.jpg" alt="Rich Dad Poor Dad: What the..."></figure>
+										<h3>Rich Dad Poor Dad: What the...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=104">
+										<figure><img src="./img/outBook09_04.jpg" alt="Why Fish Don't Exist: A Sto..."></figure>
+										<h3>Why Fish Don't Exist: A Sto...</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+						<dt>
+							<h2>특가도서 베스트</h2>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=105">
+										<figure><img src="./img/outBook10_01.jpg" alt="Holes (Paperback, 미국판)"></figure>
+										<h3>Holes (Paperback, 미국판)</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=106">
+										<figure><img src="./img/outBook10_02.jpg" alt="Wonder (Paperback, 미국판, Int..."></figure>
+										<h3>Wonder (Paperback, 미국판, Int...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=107">
+										<figure><img src="./img/outBook10_03.jpg" alt="Charlotte's Web (Paperback, 미..."></figure>
+										<h3>Charlotte's Web (Paperback, 미...</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=108">
+										<figure><img src="./img/outBook10_04.jpg" alt="The Giver (Paperback, 미국판, ..."></figure>
+										<h3>The Giver (Paperback, 미국판, ...</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="event outBook">
+						<dt>
+							<h2>이벤트</h2><a href="#">더보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBookEvent_01.jpg" alt="위대한 수업 그레이트 마인즈 포켓 토트백"></figure>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBookEvent_02.jpg" alt="버트런드 러셀 탄생 150주년 25%할인 + 클리어 파일 & USB"></figure>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBookEvent_03.jpg" alt="베스트 피규어 시리즈"></figure>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBookEvent_04.jpg" alt="해리포터 SHOP 해리포터 핸드폰 카드홀더"></figure>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBookEvent_05.jpg" alt="와일리 출판사 Dummies 시리즈 30% 할인"></figure>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="./img/outBookEvent_06.jpg" alt="옥스포드 클래식 45%할인"></figure>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</dd>
+			<dt class="active">
+				<h2>eBook</h2>
+			</dt>
+			<dd class="active">
+				<div class="banner swiper">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/ebookBanner_01.jpg" alt="북폴리오 e브랜드전 북폴리오 eBook 포함 2만원 이상 구매시! eBook 전종 소장 10% & 추천 대여 할인 여권 파우치 & 댓글 추첨 적립금 (이벤트 기간 : 11월 3일 ~ 선착순 한정수량 소진시까지) * 무료eBook은 제외"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/ebookBanner_02.jpg" alt="eBook 단독 판매 믿음의 개는 시간을 저버리지 않으며 <믿음의 개는 시간을 저버리지 않으며>에 대한 기대평을 댓글로 남겨주세요. 추첨을 통해 30분께 1천원 eBook 적립금을 드립니다. * 발표 및 적립금 지급일 : 12월 8일"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/ebookBanner_03.jpg" alt="eBook 대여 릴레이 100% 페이백 클락위크 도깨비 100% 페이백 #한국소설 특집 매주 화요일, 1명의 작가와 1권의 책을 만나 보세요. <클락워크 도깨비> 이벤트 기간 : 11월 22일 10시 ~ 11월 28일 23시 50분"></figure></a></li>
+						<li class="swiper-slide"><a href="#"><figure><img src="./img/ebookBanner_04.jpg" alt="e작가 e북:레이먼드 카버 올 겨울, 더 많은 레이먼드 카버의 eBook이 찾아옵니다 이벤트 대상 도서 포함 eBook 2만원 이상 구매 시 이벤트 기간 11월 11일 10시 ~ 소진시까지"></figure></a></li>
+					</ul>
+					<button class="swiper-button-prev"><figure><img src="./img/arrow_left.png" alt="이전 화살표"></figure></button>
+					<button class="swiper-button-next"><figure><img src="./img/arrow_right.png" alt="다음 화살표"></figure></button>
+				</div>
+				<div class="books">
+					<dl>
+						<dt>
+							<h2>혼자가 좋지만 혼자라 불안한</h2>
+							<h2>내향인을 위한 eBook</h2><a href="#">더보기 →</a>
+						</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=109">
+										<figure><img src="./img/ebook01_01.jpg" alt="관계의 불안은 우리를 어떻게 성장시키는가"></figure>
+										<h3>관계의 불안은 우리를 어떻게 성장시키는가</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=110">
+										<figure><img src="./img/ebook01_02.jpg" alt="혼자 있고 싶은데 외로운 건 싫어"></figure>
+										<h3>혼자 있고 싶은데 외로운 건 싫어</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=111">
+										<figure><img src="./img/ebook01_03.jpg" alt="나는 왜 혼자가 편할까?"></figure>
+										<h3>나는 왜 혼자가 편할까?</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=112">
+										<figure><img src="./img/ebook01_04.jpg" alt="나는 왜 나를 함부로 대할까"></figure>
+										<h3>나는 왜 나를 함부로 대할까</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<ul class="categoryGenre">
+						<li><a href="#">소설/시</a></li>
+						<li><a href="#">로맨스</a></li>
+						<li><a href="#">라이트노벨</a></li>
+						<li><a href="#">판타지/무협</a></li>
+						<li><a href="#">만화</a></li>
+						<li><a href="#">BL</a></li>
+						<li><a href="#">에세이</a></li>
+						<li><a href="#">자기계발</a></li>
+						<li><a href="#">경제경영</a></li>
+						<li><a href="#">사회과학</a></li>
+						<li><a href="#">인문학</a></li>
+						<li><a href="#">역사</a></li>
+						<li><a href="#">청소년</a></li>
+						<li><a href="#">예술/대중문화</a></li>
+						<li><a href="#">종교/역학</a></li>
+						<li><a href="#">어린이</a></li>
+					</ul>
+					<dl>
+						<dt>
+							<h2>베스트셀러 eBook</h2><a href="#">전체보기 →</a>
+						</dt>
+						<dd>
+							<dl class="btnList eBook top">
+								<dt class="active"><h2>종합</h2></dt>
+								<dd class="active">
+									<div class="swiper ebookBanner">
+										<ol class="swiper-wrapper">
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=113">
+													<figure><img src="./img/ebook02_01.jpg" alt="집 안의 천사 죽이기"></figure>
+													<h3>집 안의 천사 죽이기</h3>
+													<p>버지니아 울프 지음, 최애리 옮김 | 열린책들</p>
+													<p>구매 9,800원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=114">
+													<figure><img src="./img/ebook02_02.jpg" alt="아버지의 해방일지"></figure>
+													<h3>아버지의 해방일지</h3>
+													<p>정지아 지음 | 창비</p>
+													<p>구매 12,000원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=115">
+													<figure><img src="./img/ebook02_03.jpg" alt="역행자"></figure>
+													<h3>역행자</h3>
+													<p>자청 지음 | 웅진지식하우스</p>
+													<p>구매 11,070원 / 10%할인</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=116">
+													<figure><img src="./img/ebook02_04.jpg" alt="[100% 페이백] 석류의 씨"></figure>
+													<h3>[100% 페이백] 석류의 씨</h3>
+													<p>이디스 워튼 | 휴머니스트</p>
+													<p>대여 4,500원</p>
+													<p>구매 9,100원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=117">
+													<figure><img src="./img/ebook02_05.jpg" alt="사람을 얻는 지혜"></figure>
+													<h3>사람을 얻는 지혜</h3>
+													<p>발타자르 그라시안 지음, 임정재 옮김 | 타커스(끌레마)</p>
+													<p>구매 7,590원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=118">
+													<figure><img src="./img/ebook02_06.jpg" alt="하얼빈"></figure>
+													<h3>하얼빈</h3>
+													<p>김훈 지음 | 문학동네</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=119">
+													<figure><img src="./img/ebook02_07.jpg" alt="게으른 완벽주의자를 위한 심리학"></figure>
+													<h3>게으른 완벽주의자를 위한 심리학</h3>
+													<p>헤이든 핀치 지음, 이은정 옮김 | 시크릿하우스</p>
+													<p>구매 11,900원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=120">
+													<figure><img src="./img/ebook02_08.jpg" alt="내가 행복한 이유"></figure>
+													<h3>내가 행복한 이유</h3>
+													<p>그렉 이건 지음, 김상훈 옮김 | 허블</p>
+													<p>구매 12,900원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=121">
+													<figure><img src="./img/ebook02_09.jpg" alt="파친코 1"></figure>
+													<h3>파친코 1</h3>
+													<p>이민진 지음, 신승미 옮김 | 인플루엔셜(주)</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=122">
+													<figure><img src="./img/ebook02_10.jpg" alt="이야기의 핵심"></figure>
+													<h3>이야기의 핵심</h3>
+													<p>리비 호커 지음, 안은주 옮김 | 한즈미디어</p>
+													<p>대여 4,900원</p>
+													<p>구매 8,820원 / 10%할인</p>
+												</a>
+											</li>
+										</ol>
+									</div>
+								</dd>
+								<dt><h2>소설</h2></dt>
+								<dd>
+									<div class="swiper ebookBanner">
+										<ol class="swiper-wrapper">
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=114">
+													<figure><img src="./img/ebook03_01.jpg" alt="아버지의 해방일지"></figure>
+													<h3>아버지의 해방일지</h3>
+													<p>정지아 지음 | 창비</p>
+													<p>구매 12,000원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=116">
+													<figure><img src="./img/ebook03_02.jpg" alt="[100% 페이백] 석류의 씨"></figure>
+													<h3>[100% 페이백] 석류의 씨</h3>
+													<p>이디스 워튼 | 휴머니스트</p>
+													<p>대여 4,500원</p>
+													<p>구매 9,100원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=118">
+													<figure><img src="./img/ebook03_03.jpg" alt="하얼빈"></figure>
+													<h3>하얼빈</h3>
+													<p>김훈 지음 | 문학동네</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=120">
+													<figure><img src="./img/ebook03_04.jpg" alt="내가 행복한 이유"></figure>
+													<h3>내가 행복한 이유</h3>
+													<p>그렉 이건 지음, 김상훈 옮김 | 허블</p>
+													<p>구매 12,900원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=121">
+													<figure><img src="./img/ebook03_05.jpg" alt="파친코 1"></figure>
+													<h3>파친코 1</h3>
+													<p>이민진 지음, 신승미 옮김 | 인플루엔셜(주)</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=122">
+													<figure><img src="./img/ebook03_06.jpg" alt="이야기의 핵심"></figure>
+													<h3>이야기의 핵심</h3>
+													<p>리비 호커 지음, 안은주 옮김 | 한즈미디어</p>
+													<p>대여 4,900원</p>
+													<p>구매 8,820원 / 10%할인</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=123">
+													<figure><img src="./img/ebook03_07.jpg" alt="불편한 편의점"></figure>
+													<h3>불편한 편의점</h3>
+													<p>김호연 지음 | 나무옆의자</p>
+													<p>구매 9,800원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=124">
+													<figure><img src="./img/ebook03_08.jpg" alt="칵테일, 러브, 좀비"></figure>
+													<h3>칵테일, 러브, 좀비</h3>
+													<p>조예은 지음 | 안전가옥</p>
+													<p>구매 6,300원 / 10%할인</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=125">
+													<figure><img src="./img/ebook03_09.jpg" alt="다락방의 미친 여자"></figure>
+													<h3>다락방의 미친 여자</h3>
+													<p>샌드라 길버트.수전 구바 지음, 박오복 옮김 | 북하우스</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li class="swiper-slide">
+												<a href="./detailPage.html?itemId=126">
+													<figure><img src="./img/ebook03_10.jpg" alt="데미안 (한글판)"></figure>
+													<h3>데미안 (한글판)</h3>
+													<p>헤르만 헤세 지음, 이순학 옮김 | 더클래식</p>
+													<p>구매 990원</p>
+												</a>
+											</li>
+										</ol>
+									</div>
+								</dd>
+								<dt><h2>에세이</h2></dt>
+								<dd>
+									<div>
+										<ol>
+											<li>
+												<a href="./detailPage.html?itemId=114">
+													<figure><img src="./img/ebook03_01.jpg" alt="아버지의 해방일지"></figure>
+													<h3>아버지의 해방일지</h3>
+													<p>정지아 지음 | 창비</p>
+													<p>구매 12,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=116">
+													<figure><img src="./img/ebook03_02.jpg" alt="[100% 페이백] 석류의 씨"></figure>
+													<h3>[100% 페이백] 석류의 씨</h3>
+													<p>이디스 워튼 | 휴머니스트</p>
+													<p>대여 4,500원</p>
+													<p>구매 9,100원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=118">
+													<figure><img src="./img/ebook03_03.jpg" alt="하얼빈"></figure>
+													<h3>하얼빈</h3>
+													<p>김훈 지음 | 문학동네</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=120">
+													<figure><img src="./img/ebook04_04.jpg" alt="내가 행복한 이유"></figure>
+													<h3>내가 행복한 이유</h3>
+													<p>그렉 이건 지음, 김상훈 옮김 | 허블</p>
+													<p>구매 12,900원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=121">
+													<figure><img src="./img/ebook04_05.jpg" alt="파친코 1"></figure>
+													<h3>파친코 1</h3>
+													<p>이민진 지음, 신승미 옮김 | 인플루엔셜(주)</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=122">
+													<figure><img src="./img/ebook04_06.jpg" alt="이야기의 핵심"></figure>
+													<h3>이야기의 핵심</h3>
+													<p>리비 호커 지음, 안은주 옮김 | 한즈미디어</p>
+													<p>대여 4,900원</p>
+													<p>구매 8,820원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=123">
+													<figure><img src="./img/ebook04_07.jpg" alt="불편한 편의점"></figure>
+													<h3>불편한 편의점</h3>
+													<p>김호연 지음 | 나무옆의자</p>
+													<p>구매 9,800원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=124">
+													<figure><img src="./img/ebook04_08.jpg" alt="칵테일, 러브, 좀비"></figure>
+													<h3>칵테일, 러브, 좀비</h3>
+													<p>조예은 지음 | 안전가옥</p>
+													<p>구매 6,300원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=125">
+													<figure><img src="./img/ebook04_09.jpg" alt="다락방의 미친 여자"></figure>
+													<h3>다락방의 미친 여자</h3>
+													<p>샌드라 길버트.수전 구바 지음, 박오복 옮김 | 북하우스</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=126">
+													<figure><img src="./img/ebook04_10.jpg" alt="데미안 (한글판)"></figure>
+													<h3>데미안 (한글판)</h3>
+													<p>헤르만 헤세 지음, 이순학 옮김 | 더클래식</p>
+													<p>구매 990원</p>
+												</a>
+											</li>
+										</ol>
+									</div>
+								</dd>
+								<dt><h2>인문</h2></dt>
+								<dd>
+									<div>
+										<ol>
+											<li>
+												<a href="./detailPage.html?itemId=119">
+													<figure><img src="./img/ebook05_01.jpg" alt="게으른 완벽주의자를 위한 심리학"></figure>
+													<h3>게으른 완벽주의자를 위한 심리학</h3>
+													<p>헤이든 핀치 지음, 이은정 옮김 | 시크릿하우스</p>
+													<p>구매 11,900원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=122">
+													<figure><img src="./img/ebook05_02.jpg" alt="이야기의 핵심"></figure>
+													<h3>이야기의 핵심</h3>
+													<p>리비 호커 지음, 안은주 옮김 | 한즈미디어</p>
+													<p>대여 4,900원</p>
+													<p>구매 8,820원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=125">
+													<figure><img src="./img/ebook05_03.jpg" alt="다락방의 미친 여자"></figure>
+													<h3>다락방의 미친 여자</h3>
+													<p>샌드라 길버트.수전 구바 지음, 박오복 옮김 | 북하우스</p>
+													<p>구매 37,800원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=127">
+													<figure><img src="./img/ebook05_04.jpg" alt="사피엔스"></figure>
+													<h3>사피엔스</h3>
+													<p>유발 하라리 지음, 조현욱 옮김, 이태수 감수 | 김영사</p>
+													<p>구매 12,960원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=128">
+													<figure><img src="./img/ebook05_05.jpg" alt="마케터의 글쓰기"></figure>
+													<h3>마케터의 글쓰기</h3>
+													<p>이선미 지음 | 앤의서재</p>
+													<p>구매 10,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=112">
+													<figure><img src="./img/ebook05_06.jpg" alt="나는 왜 나를 함부로 대할까"></figure>
+													<h3>나는 왜 나를 함부로 대할까</h3>
+													<p>문요한 지음 | 해냄출판사</p>
+													<p>구매 10,080원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=129">
+													<figure><img src="./img/ebook05_07.jpg" alt="딜레마 사전"></figure>
+													<h3>딜레마 사전</h3>
+													<p>안젤라 애커만.베카 푸글리시 지음, 오수원 옮김 | 윌북</p>
+													<p>구매 13,860원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=130">
+													<figure><img src="./img/ebook05_08.jpg" alt="공정하다는 착각"></figure>
+													<h3>공정하다는 착각</h3>
+													<p>마이클 샌델 지음, 함규진 옮김 | 와이즈베리</p>
+													<p>구매 12,600원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=131">
+													<figure><img src="./img/ebook05_09.jpg" alt="사랑의 기술 (개정판)"></figure>
+													<h3>사랑의 기술 (개정판)</h3>
+													<p>에리히 프롬 지음, 황문수 옮김 | 문예출판사</p>
+													<p>구매 8,400원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=132">
+													<figure><img src="./img/ebook05_10.jpg" alt="알고 있다는 착각"></figure>
+													<h3>알고 있다는 착각</h3>
+													<p>질리언 테트 지음, 문희경 옮김 | 어크로스</p>
+													<p>구매 11,700원 / 10%할인</p>
+												</a>
+											</li>
+										</ol>
+									</div>
+								</dd>
+								<dt><h2>경영</h2></dt>
+								<dd>
+									<div>
+										<ol>
+											<li>
+												<a href="./detailPage.html?itemId=115">
+													<figure><img src="./img/ebook06_01.jpg" alt="역행자"></figure>
+													<h3>역행자</h3>
+													<p>자청 지음 | 웅진지식하우스</p>
+													<p>구매 11,070원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=133">
+													<figure><img src="./img/ebook06_02.jpg" alt="부자 아빠 가난한 아빠 20주년 특별 기념판 [부자 아빠 가난한 아빠 1 개정증보판]">
+													</figure>
+													<h3>부자 아빠 가난한 아빠 20주년 특별 기념판 [부자 아빠 가난한 아빠 1 개정증보판]</h3>
+													<p>로버트 기요사키 지음, 안진환 옮김 | 민음인</p>
+													<p>구매 11,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=128">
+													<figure><img src="./img/ebook06_03.jpg" alt="마케터의 글쓰기"></figure>
+													<h3>마케터의 글쓰기</h3>
+													<p>이선미 지음 | 앤의서재</p>
+													<p>구매 10,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=134">
+													<figure><img src="./img/ebook06_04.jpg" alt="부의 추월차선 (10주년 스페셜 에디션)"></figure>
+													<h3>부의 추월차선 (10주년 스페셜 에디션)</h3>
+													<p>엠제이 드마코 지음, 신소영 옮김 | 토트</p>
+													<p>구매 12,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=135">
+													<figure><img src="./img/ebook06_05.jpg" alt="투자에도 순서가 있다"></figure>
+													<h3>투자에도 순서가 있다</h3>
+													<p>홍춘욱 지음 | 알에이치코리아(RHK)</p>
+													<p>구매 11,340원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=136">
+													<figure><img src="./img/ebook06_06.jpg" alt="원씽"></figure>
+													<h3>원씽</h3>
+													<p>게리 켈러 & 제이 파파산 지음, 구세희 옮김 | 비즈니스북스</p>
+													<p>구매 10,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=132">
+													<figure><img src="./img/ebook06_07.jpg" alt="알고 있다는 착각"></figure>
+													<h3>알고 있다는 착각</h3>
+													<p>질리언 테트 지음, 문희경 옮김 | 어크로스</p>
+													<p>구매 11,700원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=137">
+													<figure><img src="./img/ebook06_08.jpg" alt="대출의 마법"></figure>
+													<h3>대출의 마법</h3>
+													<p>레오(김은진) 지음 | 다산북스</p>
+													<p>구매 12,600원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=138">
+													<figure><img src="./img/ebook06_09.jpg" alt="숫자 감각의 힘"></figure>
+													<h3>숫자 감각의 힘</h3>
+													<p>사이토 고타츠 지음, 양필성 옮김 | 클랩북스</p>
+													<p>구매 11,700원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=139">
+													<figure><img src="./img/ebook06_10.jpg" alt="부자의 그릇"></figure>
+													<h3>부자의 그릇</h3>
+													<p>이즈미 마사토 지음, 김윤수 옮김 | 다산북스</p>
+													<p>구매 10,500원</p>
+												</a>
+											</li>
+										</ol>
+									</div>
+								</dd>
+								<dt><h2>자기계발</h2></dt>
+								<dd>
+									<div>
+										<ol>
+											<li>
+												<a href="./detailPage.html?itemId=115">
+													<figure><img src="./img/ebook07_01.jpg" alt="역행자"></figure>
+													<h3>역행자</h3>
+													<p>자청 지음 | 웅진지식하우스</p>
+													<p>구매 11,070원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=117">
+													<figure><img src="./img/ebook07_02.jpg" alt="사람을 얻는 지혜"></figure>
+													<h3>사람을 얻는 지혜</h3>
+													<p>발타자르 그라시안 지음, 임정재 옮김 | 타커스(끌레마)</p>
+													<p>구매 7,590원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=119">
+													<figure><img src="./img/ebook07_03.jpg" alt="게으른 완벽주의자를 위한 심리학"></figure>
+													<h3>게으른 완벽주의자를 위한 심리학</h3>
+													<p>헤이든 핀치 지음, 이은정 옮김 | 시크릿하우스</p>
+													<p>구매 11,900원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=140">
+													<figure><img src="./img/ebook07_04.jpg" alt="빠르게 실패하기"></figure>
+													<h3>빠르게 실패하기</h3>
+													<p>존 크럼볼츠.라이언 바비노 지음, 도연 옮김 | 스노우폭스북스</p>
+													<p>구매 11,550원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=141">
+													<figure><img src="./img/ebook07_05.jpg" alt="역설계"></figure>
+													<h3>역설계</h3>
+													<p>론 프리드먼 지음, 이수경 옮김 | 어크로스</p>
+													<p>구매 11,700원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=142">
+													<figure><img src="./img/ebook07_06.jpg" alt="그릿 GRIT (100쇄 기념 리커버 에디션)"></figure>
+													<h3>그릿 GRIT (100쇄 기념 리커버 에디션)</h3>
+													<p>앤절라 더크워스 지음, 김미정 옮김 | 비즈니스북스</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=143">
+													<figure><img src="./img/ebook07_07.jpg" alt="비상식적 성공 법칙"></figure>
+													<h3>비상식적 성공 법칙</h3>
+													<p>간다 마사노리 지음, 서승범 옮김 | 생각지도</p>
+													<p>구매 13,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=144">
+													<figure><img src="./img/ebook07_08.jpg" alt="데일 카네기 인간관계론"></figure>
+													<h3>데일 카네기 인간관계론</h3>
+													<p>데일 카네기 지음, 임상훈 옮김 | 현대지성</p>
+													<p>구매 5,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=128">
+													<figure><img src="./img/ebook07_09.jpg" alt="마케터의 글쓰기"></figure>
+													<h3>마케터의 글쓰기</h3>
+													<p>이선미 지음 | 앤의서재</p>
+													<p>구매 10,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=145">
+													<figure><img src="./img/ebook07_10.jpg" alt="당신의 뇌는 최적화를 원한다"></figure>
+													<h3>당신의 뇌는 최적화를 원한다</h3>
+													<p>가바사와 시온 지음, 오시연 옮김 | 쌤앤파커스</p>
+													<p>구매 9,450원 / 10%할인</p>
+												</a>
+											</li>
+										</ol>
+									</div>
+								</dd>
+							</dl>
+						</dd>
+					</dl>
+					<dl>
+						<dt><h2>새로나온 eBook</h2></dt>
+						<dd>
+							<dl class="btnList eBook bottom">
+								<dt class="active"><h2>종합</h2></dt>
+								<dd class="active">
+									<div>
+										<ul>
+											<li>
+												<a href="./detailPage.html?itemId=146">
+													<figure><img src="./img/ebook08_01.jpg" alt="다니엘 핑크 후회의 재발견"></figure>
+													<h3>다니엘 핑크 후회의 재발견</h3>
+													<p>다니엘 핑크 지음, 김명철 옮김 | 한국경제신문</p>
+													<p>구매 12,960원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=147">
+													<figure><img src="./img/ebook08_02.jpg" alt="마인"></figure>
+													<h3>마인</h3>
+													<p>마이클 헬러.제임스 살츠먼 지음, 김선영 옮김 | 흐름출판문</p>
+													<p>구매 15,840원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=148">
+													<figure><img src="./img/ebook08_03.jpg" alt="파친코 2"></figure>
+													<h3>파친코 2</h3>
+													<p>이민진 지음 | 인플루엔셜(주)</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=121">
+													<figure><img src="./img/ebook08_04.jpg" alt="파친코 1"></figure>
+													<h3>파친코 1</h3>
+													<p>이민진 지음, 신승미 옮김 | 인플루엔셜(주)</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=149">
+													<figure><img src="./img/ebook08_05.jpg" alt="누가 이 침대를 쓰고 있었든"></figure>
+													<h3>누가 이 침대를 쓰고 있었든</h3>
+													<p>레이먼드 카버 지음, 정영목 옮김 | 문학동네</p>
+													<p>구매 10,080원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=150">
+													<figure><img src="./img/ebook08_06.jpg" alt="그림자를 이으면 길이 된다"></figure>
+													<h3>그림자를 이으면 길이 된다</h3>
+													<p>D 지음, 김수정 외 감수 | 동녘</p>
+													<p>구매 15,400원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=151">
+													<figure><img src="./img/ebook08_07.jpg" alt="수학의 위로"></figure>
+													<h3>수학의 위로</h3>
+													<p>마이클 프레임 지음, 이한음 옮김 | 디플롯</p>
+													<p>구매 13,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=152">
+													<figure><img src="./img/ebook08_08.jpg" alt="캐스팅"></figure>
+													<h3>캐스팅</h3>
+													<p>조예은 외 지음 | 돌베개</p>
+													<p>구매 8,190원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=153">
+													<figure><img src="./img/ebook08_09.jpg" alt="책과 우연들"></figure>
+													<h3>책과 우연들</h3>
+													<p>김초엽 지음 | 열림원</p>
+													<p>구매 10,080원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=154">
+													<figure><img src="./img/ebook08_10.jpg" alt="눈에 보이지 않는 지도책"></figure>
+													<h3>눈에 보이지 않는 지도책</h3>
+													<p>제임스 체셔.올리버 우버티 지음, 송예슬 옮김 | 윌북</p>
+													<p>구매 19,900원</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</dd>
+								<dt>
+									<h2>소설</h2>
+								</dt>
+								<dd>
+									<div>
+										<ul>
+											<li>
+												<a href="./detailPage.html?itemId=148">
+													<figure><img src="./img/ebook09_01.jpg" alt="파친코 2"></figure>
+													<h3>파친코 2</h3>
+													<p>이민진 지음 | 인플루엔셜(주)</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=121">
+													<figure><img src="./img/ebook09_02.jpg" alt="파친코 1"></figure>
+													<h3>파친코 1</h3>
+													<p>이민진 지음, 신승미 옮김 | 인플루엔셜(주)</p>
+													<p>구매 12,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=155">
+													<figure><img src="./img/ebook09_03.jpg" alt="오늘 밤, 세계에서 이 눈물이 사라진다 해도"></figure>
+													<h3>오늘 밤, 세계에서 이 눈물이 사라진다 해도</h3>
+													<p>이치조 미사키 지음, 김윤경 옮김 | 모모</p>
+													<p>구매 10,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=156">
+													<figure><img src="./img/ebook09_04.jpg" alt="이형의 것들"></figure>
+													<h3>이형의 것들</h3>
+													<p>고이케 마리코 지음, 이규원 옮김 | 북스피어</p>
+													<p>구매 8,820원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=149">
+													<figure><img src="./img/ebook09_05.jpg" alt="누가 이 침대를 쓰고 있었든"></figure>
+													<h3>누가 이 침대를 쓰고 있었든</h3>
+													<p>레이먼드 카버 지음, 정영목 옮김 | 문학동네</p>
+													<p>구매 10,080원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=157">
+													<figure><img src="./img/ebook09_06.jpg" alt="대성당"></figure>
+													<h3>대성당</h3>
+													<p>레이먼드 카버 지음, 김연수 옮김 | 문학동네</p>
+													<p>구매 8,550원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=158">
+													<figure><img src="./img/ebook09_07.jpg" alt="나중에"></figure>
+													<h3>나중에</h3>
+													<p>스티븐 킹 지음, 진서희 옮김 | 황금가지</p>
+													<p>대여 5,150원</p>
+													<p>구매 9,270원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=159">
+													<figure><img src="./img/ebook09_08.jpg" alt="이상 시 전집"></figure>
+													<h3>이상 시 전집</h3>
+													<p>이상 지음, 권영민 엮음 | 민음사</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=160">
+													<figure><img src="./img/ebook09_09.jpg" alt="형사의 분노"></figure>
+													<h3>형사의 분노</h3>
+													<p>야쿠마루 가쿠 지음, 남소현 옮김 | 북플라자</p>
+													<p>구매 11,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=161">
+													<figure><img src="./img/ebook09_10.jpg" alt="나주에 대하여"></figure>
+													<h3>나주에 대하여</h3>
+													<p>김화진 지음 | 문학동네</p>
+													<p>구매 9,450원 / 10%할인</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</dd>
+								<dt>
+									<h2>에세이</h2>
+								</dt>
+								<dd>
+									<div>
+										<ul>
+											<li>
+												<a href="./detailPage.html?itemId=162">
+													<figure><img src="./img/ebook10_01.jpg" alt="뉴욕에 살고 있습니다"></figure>
+													<h3>뉴욕에 살고 있습니다</h3>
+													<p>하루 지음 | 상상출판</p>
+													<p>구매 10,080원 / 10% 할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=163">
+													<figure><img src="./img/ebook10_02.jpg" alt="잘될 수밖에 없는 너에게"></figure>
+													<h3>잘될 수밖에 없는 너에게</h3>
+													<p>최서영 지음 | 북로망스</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=164">
+													<figure><img src="./img/ebook10_03.jpg" alt="내밀 예찬"></figure>
+													<h3>내밀 예찬</h3>
+													<p>김지선 지음 | 한겨레출판</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=165">
+													<figure><img src="./img/ebook10_04.jpg" alt="안 일한 하루 (소설집 수록)"></figure>
+													<h3>안 일한 하루 (소설집 수록)</h3>
+													<p>안예은 지음 | 웅진지식하우스</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=166">
+													<figure><img src="./img/ebook10_05.jpg" alt="뉴욕에서 빈티지 마켓을 시작했습니다."></figure>
+													<h3>뉴욕에서 빈티지 마켓을 시작했습니다.</h3>
+													<p>박혜주 지음 | 엣눈북스(atnoonbooks)</p>
+													<p>구매 11,900원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=153">
+													<figure><img src="./img/ebook10_06.jpg" alt="책과 우연들"></figure>
+													<h3>책과 우연들</h3>
+													<p>김초엽 지음 | 열림원</p>
+													<p>구매 10,080원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=167">
+													<figure><img src="./img/ebook10_07.jpg" alt="홈in홈"></figure>
+													<h3>홈in홈</h3>
+													<p>태수 지음 | FIKA(피카)</p>
+													<p>구매 9,450원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=168">
+													<figure><img src="./img/ebook10_08.jpg" alt="답장이 없는 삶이라도"></figure>
+													<h3>답장이 없는 삶이라도</h3>
+													<p>김해서 지음 | 세미콜론</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=169">
+													<figure><img src="./img/ebook10_09.jpg" alt="여름"></figure>
+													<h3>여름</h3>
+													<p>알베르 카뮈 지음, 박해현 옮김 | 휴머니스트</p>
+													<p>구매 9,100원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=170">
+													<figure><img src="./img/ebook10_10.jpg" alt="결혼"></figure>
+													<h3>결혼</h3>
+													<p>알베르 카뮈 지음, 박해현 옮김 | 휴머니스트</p>
+													<p>구매 8,400원</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</dd>
+								<dt>
+									<h2>인문</h2>
+								</dt>
+								<dd>
+									<div>
+										<ul>
+											<li>
+												<a href="./detailPage.html?itemId=171">
+													<figure><img src="./img/ebook11_01.jpg" alt="일상생활자의 작가 되는 법"></figure>
+													<h3>일상생활자의 작가 되는 법</h3>
+													<p>구선아 지음 | 천년의상상</p>
+													<p>구매 12,600원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=147">
+													<figure><img src="./img/ebook11_02.jpg" alt="마인"></figure>
+													<h3>마인</h3>
+													<p>마이클 헬러.제임스 살츠먼 지음, 김선영 옮김 | 흐름출판</p>
+													<p>구매 15,840원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=172">
+													<figure><img src="./img/ebook11_03.jpg" alt="초역 철학자 도감"></figure>
+													<h3>초역 철학자 도감</h3>
+													<p>토마스 아키나리 지음, 서희경 옮김 | 소보랩</p>
+													<p>대여 8,120원</p>
+													<p>구매 10,440원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=173">
+													<figure><img src="./img/ebook11_04.jpg" alt="영어의 마음을 읽는 법"></figure>
+													<h3>영어의 마음을 읽는 법</h3>
+													<p>김성우 지음 | 생각의힘</p>
+													<p>구매 15,840원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=174">
+													<figure><img src="./img/ebook11_05.jpg" alt="밀턴 에릭슨의 심리치유 수업"></figure>
+													<h3>밀턴 에릭슨의 심리치유 수업</h3>
+													<p>밀턴 H. 에릭슨 지음, 시드니 로젠 엮음, 문희경 옮김 | 어크로스</p>
+													<p>구매 13,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=175">
+													<figure><img src="./img/ebook11_06.jpg" alt="라이프 인사이드"></figure>
+													<h3>라이프 인사이드</h3>
+													<p>앤디 웨스트 지음, 박설영 옮김 | 어크로스</p>
+													<p>구매 11,700원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=176">
+													<figure><img src="./img/ebook11_07.jpg" alt="그런 말은 전혀 괜찮지 않습니다"></figure>
+													<h3>그런 말은 전혀 괜찮지 않습니다</h3>
+													<p>장슬기 지음 | 아를</p>
+													<p>구매 12,800원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=177">
+													<figure><img src="./img/ebook11_08.jpg" alt="이시형의 신인류가 몰려온다"></figure>
+													<h3>이시형의 신인류가 몰려온다</h3>
+													<p>이시형 지음 | 특별한서재</p>
+													<p>구매 11,200원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=178">
+													<figure><img src="./img/ebook11_09.jpg" alt="그건 부당합니다"></figure>
+													<h3>그건 부당합니다</h3>
+													<p>임홍택 지음 | 와이즈베리</p>
+													<p>구매 10,710원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=179">
+													<figure><img src="./img/ebook11_10.jpg" alt="위어드"></figure>
+													<h3>위어드</h3>
+													<p>조지프 헨릭 지음, 유강은 옮김 | 21세기북스</p>
+													<p>구매 33,600원</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</dd>
+								<dt>
+									<h2>경영</h2>
+								</dt>
+								<dd>
+									<div>
+										<ul>
+											<li>
+												<a href="./detailPage.html?itemId=180">
+													<figure><img src="./img/ebook12_01.jpg" alt="아메바 경영 (리커버)"></figure>
+													<h3>아메바 경영 (리커버)</h3>
+													<p>이나모리 가즈오 지음, 양준호 옮김 | 한국경제신문</p>
+													<p>구매 12,240원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=181">
+													<figure><img src="./img/ebook12_02.jpg" alt="자, 게임을 시작합니다"></figure>
+													<h3>자, 게임을 시작합니다</h3>
+													<p>대니얼 그리핀.앨버트 판데르 메이르 지음, 장용원 옮김 | 흐름출판</p>
+													<p>구매 15,840원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=182">
+													<figure><img src="./img/ebook12_03.jpg" alt="실리콘밸리에선 어떻게 일하나요"></figure>
+													<h3>실리콘밸리에선 어떻게 일하나요</h3>
+													<p>크리스 채 지음 | 더퀘스트</p>
+													<p>구매 14,400원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=183">
+													<figure><img src="./img/ebook12_04.jpg" alt="공학의 시간"></figure>
+													<h3>공학의 시간</h3>
+													<p>이순석 지음 | 청림출판</p>
+													<p>구매 11,900원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=184">
+													<figure><img src="./img/ebook12_05.jpg" alt="Z세대 트렌드 2023"></figure>
+													<h3>Z세대 트렌드 2023</h3>
+													<p>대학내일20대연구소 지음 | 위즈덤하우스</p>
+													<p>구매 11,340원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=185">
+													<figure><img src="./img/ebook12_06.jpg" alt="도박꾼이 아니라 트레이더가 되어라"></figure>
+													<h3>도박꾼이 아니라 트레이더가 되어라</h3>
+													<p>앤드루 아지즈 지음, 김태훈 옮김 | 해의시간</p>
+													<p>구매 18,500원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=186">
+													<figure><img src="./img/ebook12_07.jpg" alt="메타노믹스"></figure>
+													<h3>메타노믹스</h3>
+													<p>캐시 해클 외 지음, 권보라 옮김 | 알에이치코리아(RHK)</p>
+													<p>구매 12,600원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=187">
+													<figure><img src="./img/ebook12_08.jpg" alt="싱크 엑설런트"></figure>
+													<h3>싱크 엑설런트</h3>
+													<p>신기주 지음 | 포레스트북스</p>
+													<p>구매 12,950원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=188">
+													<figure><img src="./img/ebook12_09.jpg" alt="디지털 미디어 인사이트 2023"></figure>
+													<h3>디지털 미디어 인사이트 2023</h3>
+													<p>김경달 외 지음 | 이은북</p>
+													<p>구매 13,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=189">
+													<figure><img src="./img/ebook12_10.jpg" alt="나의 월급 독립 프로젝트 (리마스터 에디션)"></figure>
+													<h3>나의 월급 독립 프로젝트 (리마스터 에디션)</h3>
+													<p>유목민 지음 | 리더스북</p>
+													<p>구매 11,970원 / 10%할인</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</dd>
+								<dt>
+									<h2>자기계발</h2>
+								</dt>
+								<dd>
+									<div>
+										<ul>
+											<li>
+												<a href="./detailPage.html?itemId=146">
+													<figure><img src="./img/ebook13_01.jpg" alt="다니엘 핑크 후회의 재발견"></figure>
+													<h3>다니엘 핑크 후회의 재발견</h3>
+													<p>다니엘 핑크 지음, 김명철 옮김 | 한국경제신문</p>
+													<p>구매 12,960원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=190">
+													<figure><img src="./img/ebook13_02.jpg" alt="나는 나를 바꾸기로 했다"></figure>
+													<h3>나는 나를 바꾸기로 했다</h3>
+													<p>우즈훙 | 리드리드출판</p>
+													<p>구매 11,060원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=140">
+													<figure><img src="./img/ebook13_03.jpg" alt="빠르게 실패하기"></figure>
+													<h3>빠르게 실패하기</h3>
+													<p>존 크럼볼츠.라이언 바비노 지음, 도연 옮김 | 스노우폭스북스</p>
+													<p>구매 11,550원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=191">
+													<figure><img src="./img/ebook13_04.jpg" alt="어른의 어휘 공부"></figure>
+													<h3>어른의 어휘 공부</h3>
+													<p>신효원 지음 | 책장속북스</p>
+													<p>구매 12,800원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=192">
+													<figure><img src="./img/ebook13_05.jpg" alt="조셉 머피 부의 초월자"></figure>
+													<h3>조셉 머피 부의 초월자</h3>
+													<p>조셉 머피 지음, 조율리 옮김 | 다산북스</p>
+													<p>구매 13,860원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=193">
+													<figure><img src="./img/ebook13_06.jpg" alt="해빙 잇 올"></figure>
+													<h3>해빙 잇 올</h3>
+													<p>존 아사라프 지음, 박선주 옮김 | 부커</p>
+													<p>구매 12,000원</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=194">
+													<figure><img src="./img/ebook13_07.jpg" alt="FLUX 플럭스"></figure>
+													<h3>FLUX 플럭스</h3>
+													<p>에이프럴 리니 지음, 강주헌 옮김 | 나무생각</p>
+													<p>구매 12,240원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=195">
+													<figure><img src="./img/ebook13_08.jpg" alt="멘탈이 강해지는 연습"></figure>
+													<h3>멘탈이 강해지는 연습</h3>
+													<p>데이먼 자하리아데스 지음, 김미정 옮김 | 서삼독</p>
+													<p>구매 10,800원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=196">
+													<figure><img src="./img/ebook13_09.jpg" alt="당신에게는 기회가 있습니다"></figure>
+													<h3>당신에게는 기회가 있습니다</h3>
+													<p>박진수 지음 | 또다른우주</p>
+													<p>구매 11,340원 / 10%할인</p>
+												</a>
+											</li>
+											<li>
+												<a href="./detailPage.html?itemId=197">
+													<figure><img src="./img/ebook13_10.jpg" alt="부의 치트키"></figure>
+													<h3>부의 치트키</h3>
+													<p>김성공 지음 | 토네이도</p>
+													<p>구매 13,600원</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</dd>
+							</dl>
+						</dd>
+					</dl>
+					<dl>
+						<dt><h2>알라딘 오디오북</h2><a href="#">더보기 →</a></dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=198">
+										<figure><img src="./img/ebook14_01.jpg" alt="지구를 위하는 마음"></figure>
+										<h3>지구를 위하는 마음</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=199">
+										<figure><img src="./img/ebook14_02.jpg" alt="오십의 주역공부"></figure>
+										<h3>오십의 주역공부</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=200">
+										<figure><img src="./img/ebook14_03.jpg" alt="인간을 탐구하는 미술관"></figure>
+										<h3>인간을 탐구하는 미술관</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=201">
+										<figure><img src="./img/ebook14_04.jpg" alt="위대한 망가"></figure>
+										<h3>위대한 망가</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt><h2>무료 eBook</h2><a href="#">더보기 →</a></dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="./detailPage.html?itemId=202">
+										<figure><img src="./img/eBook15_01.jpg" alt="한국 소설이 좋아서 2"></figure>
+										<h3>한국 소설이 좋아서 2</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=203">
+										<figure><img src="./img/eBook15_02.jpg" alt="다가올 날들을 위한 안내서 "></figure>
+										<h3>다가올 날들을 위한 안내서 </h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=119">
+										<figure><img src="./img/eBook15_03.jpg" alt="게으른 완벽주의자를 위한 심리학 (체험판)"></figure>
+										<h3>게으른 완벽주의자를 위한 심리학 (체험판)</h3>
+									</a>
+								</li>
+								<li>
+									<a href="./detailPage.html?itemId=204">
+										<figure><img src="./img/eBook15_04.jpg" alt="세계괴담모음"></figure>
+										<h3>세계괴담모음</h3>
+									</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</dd>
+		</dl>
+	</div>
+	<footer>
+		<div class="tFoot">
+			<dl>
+				<dt>빠른 서비스</dt>
+				<dd>
+					<ul>
+						<li><a href="#">반품/교환 신청</a></li>
+						<li><a href="#">증빙서류 신청</a></li>
+						<li><a href="#">미배송 신고</a></li>
+						<li><a href="#">입금 신고</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>출판사,판매자 안내</dt>
+				<dd>
+					<ul>
+						<li><a href="#">제휴&마케팅 안내</a></li>
+						<li><a href="#">출판사/공급사 안내</a></li>
+						<li><a href="#">광고 안내</a></li>
+						<li><a href="#">판매자 매니저</a></li>
+						<li><a href="#">학교/기업 기관 대량구매</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>스페셜 서비스</dt>
+				<dd>
+					<ul>
+						<li><a href="#">독자북펀드</a></li>
+						<li><a href="#">알라딘멤버십</a></li>
+						<li><a href="#">기프티북</a></li>
+						<li><a href="#">선물상품권 / 알라딘캐시</a></li>
+						<li><a href="#">알라딘 US</a></li>
+						<li><a href="#">알림센터</a></li>
+						<li><a href="#">품절도서센터</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>가격만족&배송만족</dt>
+				<dd>
+					<ul>
+						<li><a href="#">2천원 추가 마일리지</a></li>
+						<li><a href="#">Thanks to 적립금</a></li>
+						<li><a href="#">최저가격 계산기</a></li>
+						<li><a href="#">최저가 보상제도</a></li>
+						<li><a href="#">양탄자배송/당일배송</a></li>
+						<li><a href="#">편의점배송</a></li>
+						<li><a href="#">신간 1권도 무료배송</a></li>
+						<li><a href="#">수령일 예고제</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>웹&모바일</dt>
+				<dd>
+					<ul>
+						<li><a href="#">Open API</a></li>
+						<li><a href="#">모바일/앱</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>제휴 서비스</dt>
+				<dd>
+					<ul>
+						<li><a href="#">제휴 할인카드</a></li>
+						<li><a href="#">한국문화진흥 문화상품권</a></li>
+						<li><a href="#">아시아나 항공 마일리지</a></li>
+						<li><a href="#">에쓰오일 S포인트</a></li>
+						<li><a href="#">문화누리카드</a></li>
+						<li><a href="#">알라딘 전자도서관</a></li>
+						<li><a href="#">도서판매사업자 서비스</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<div class="mFoot">
+			<ul>
+				<li><a href="#">회사소개</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">개인정보처리방침</a></li>
+				<li><a href="#">청소년 보호정책</a></li>
+				<li><a href="#">중고매장</a></li>
+				<li><a href="#">블로그&#38;SNS</a></li>
+			</ul>
+		</div>
+		<div class="fFoot">
+			<div class="fleft">
+				<p>(주)알라딘커뮤니케이션</p>
+				<p>대표이사: 최우경 | 고객정보보호책임자: 최우경 | E-mail: privacy@aladin.co.kr</p>
+				<p>사업자등록: 201-81-23094 | 통신판매업신고: 중구01520호</p>
+				<p>호스팅 제공자: 알라딘 커뮤니케이션</p>
+				<address><a href="#">(본사) 서울시 중구 서소문로 89-31</a></address>
+				<address><a href="#">(중고매장) 자세히보기</a></address>
+				<address>(고객센터) 서울시 마포구 백범로 71 숨도빌딩 7층, Fax 02-6926-2600</address>
+				<p>&#169; Aladin Communication. All Rights Reserved.</p>
+			</div>
+			<div class="fright">
+				<div>
+					<a href="tel:15442514">고객센터 일반문의 1544-2514</a>
+					<a href="#">1:1문의</a>
+					<a href="#">FAQ</a>
+				</div>
+				<div>
+					<a href="#">
+						<figure><img src="./img/safeIcon.png" alt="KCP 아이콘"></figure>구매안전 에스크로 서비스 가입 확인
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<figure><img src="./img/infoIcon.png" alt="ISMS 아이콘"></figure>정보보호 관리체계 ISMS 인증획득
+					</a>
+				</div>
+				<div>
+					<a href="#">북플</a>
+					<a href="#">서재</a>
+					<a href="#">트위터<figure><img src="./img/tweeterIcon.png" alt="트위터 아이콘"></figure></a>
+					<a href="#">페이스북<figure><img src="./img/facebookIcon.png" alt="페이스북 아이콘"></figure></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

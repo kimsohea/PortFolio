@@ -1,0 +1,464 @@
+@media (max-width:768px) {
+    .listBg.active::after {
+        display: none;
+    }
+    header {
+        padding: 10px;
+        position: relative;
+        /* z-index: 5; */
+        background: #fff;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    header .hWrap {
+        width: 100%;
+    }
+    header .hWrap .gnb,
+    header .hWrap .pcPrivacy {
+        display: none;
+    }
+    .logo {
+        padding-left: 5px;
+    }
+    .searchBar {
+        padding-top:15px;
+        display: flex;
+    }
+    .searchBar input {
+        width: 60%;
+        background: #DEDFE4;
+        border: 0;
+        height:30px;
+        border-radius: 10px;
+        margin-left:20px;
+    }
+    .searchBar button {
+        background: none;
+        border: 0;
+        height: 30px;
+        margin-left: 10px;
+        width: 20px;
+    }
+    ul.mobilePrivacy {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.25rem;
+        font-weight: 500;
+        padding: 13px 0;
+    }
+    header .hWrap .mobile {
+        display:block;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    header .hWrap .mobile.active{
+        opacity: 1;
+        visibility: visible;
+        position: absolute;
+        background: #f7f8fc;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        z-index: 3;
+    }
+    header .hWrap > ul.mobileGnb {
+        display: block;
+        
+    }
+    header .mobileGnb>li {
+        font-size: 1.5rem;
+        text-indent: 20px;
+        font-weight: 500;
+    }
+    header .depthlist1m {
+        margin:10px 0;
+    }
+    header .depthlist1m>li>a {
+        padding:3px 0;
+    }
+    header .depthlist1m>li {
+        font-size: 1.25rem;
+        position: relative;
+        border-bottom: .5px solid #F3F4F7;
+        text-indent:10px;
+        font-weight: 400;
+    }
+    header .depthlist1m>li.selected::before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 24px;
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        background: url(../img/arrow_mobile.png) no-repeat center/30%;
+        border-radius: 15px;
+        transform:rotate(180deg);
+        transition:all .4s linear;
+        cursor: pointer;
+    }
+    header .depthlist1m>li.selected.active::before {
+        transform:rotate(0deg) translateX(-1.5px);
+        border-bottom: 0px;
+    }
+    header .depthlist2m {
+        height:0;
+        overflow: hidden;
+    }
+    header .depthlist2m.active {
+        font-size: 1rem;
+        display: flex;
+        height:auto;
+        flex-wrap: wrap;
+        background: #F3F4F7;
+        padding:10px 0;
+    }
+    header .depthlist2m>li {
+        padding: 5px 10px;
+        margin-right: 5px;
+    }
+    header .depthlist3m {
+        display: none;
+    }
+    .toggleBar {
+        display: flex;
+        position: absolute;
+        z-index: 10;
+        width: 37px;
+        height: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 18px;
+        cursor: pointer;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .toggleBar span {
+        width: 37px;
+        height: 1px;
+        display: block;
+        background: #000;
+        border-radius: 15px;
+        transition: all 0.3s linear;
+    }
+    .toggleBar.active span:nth-last-of-type(1){
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+    .toggleBar.active span:nth-last-of-type(2){
+        transform: rotate(0deg) translateX(100%);
+    }
+    .toggleBar.active span:nth-last-of-type(3){
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+    .content.active,
+    .detailContent.active {
+        display: none;
+    }
+    footer.active {
+        display: none;
+    }
+    /* 배너 이미지사이즈 */
+    .banner {
+        height: auto;
+     }   
+    .banner ul li img {
+        width: 100%;
+    }
+    /* subBanner */
+    .subBanner img{
+        width: 100%;
+    }
+    /* footer */
+    footer>div {
+        width:100%;
+    }
+    .mFoot ul {
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .tFoot {
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .tFoot dl dd {
+        display: none;
+    }
+    .fFoot {
+        flex-wrap: wrap;
+        padding: 20px 0px;
+    }
+    .fFoot div {
+        width:100%;
+        text-align: center;
+    }
+    .fFoot>div:first-of-type {
+        border-bottom: 1px solid #93999B;
+        margin-bottom:20px;
+    }
+    .fFoot .fright div:nth-of-type(1), 
+    .fFoot .fright div:nth-of-type(4){
+        justify-content: center;
+    }
+    .fFoot .fright div:nth-of-type(2)>a, 
+    .fFoot .fright div:nth-of-type(3)>a {
+        justify-content: center;
+    }
+    /* 이미지 사이즈 */
+    .books figure {
+        height: 42vw;
+    }
+    .product figure,
+    .products figure {
+        height:30vw;
+    }
+    /*books base*/
+    .blog,
+    .product,
+    .books {
+        width:100%;
+        margin:0px auto;
+        overflow: hidden;
+    }
+    .products dl,
+    .product dl,
+    .books dl {
+        text-align: left;
+    }
+    .products>dl dt,
+    .product>dl dt,
+    .books>dl dt {
+        padding-left:20px;
+    }
+    .product dl dd ul,
+    .books dl dd ul,
+    .books dl dd ol {
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .product dl dd ul li,
+    .books dl dd ul li,
+    .books dl dd ol li {
+        width: calc((100% / 3) - 15px);
+        margin: 0;
+    }
+    .product dl dd ul li:last-of-type,
+    .books dl dd ul li:last-of-type,
+    .books dl dd ol li:last-of-type {
+        display: none;
+    }
+    .blog dl dt>a:last-of-type,
+    .product dl dt>a:last-of-type,
+    .books dl dt>a:last-of-type{
+        right: 16px;
+        bottom: auto;
+        top: 5px;
+    }
+    .books .btnList dd p {
+        width: 90%;
+        margin: 0px auto;
+    }
+    /* 버튼리스트들 */
+    .books .btnList {
+        margin-bottom: 75%;
+    }
+    .books .btnList dt{
+        margin:0;
+    }
+    /* 기존페이지 하단 버튼리스트*/
+    .books .btnList .threeTypeList figure {
+        width: 90%;
+        height: 30vw;
+    }
+    .books dl dd ul.threeTypeList li:last-of-type {
+        display: block;
+    }
+    .books .btnList .twoTypeList li:last-of-type {
+        display: block;
+    }
+    .books .btnList .oneTypeList {
+        text-align: center;
+    }
+    .books .btnList .oneTypeList iframe {
+        width: 92%;
+        margin: 0px auto;
+        display: block;
+    }
+    /* 해외도서 최하단 이벤트리스트 교정 */
+    .books .event.outBook {
+        margin-bottom:10vh;
+    }
+    .books .event.outBook dd>ul {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .books .event.outBook dd>ul li {
+        width: calc(100%/3);
+    }
+    .books .event.outBook dd>ul li:last-of-type {
+        display: block;
+    }
+    /* ebook버튼리스트 */
+    .books .btnList.eBook{
+        margin-bottom: 76%;
+    }
+    .books .btnList.eBook>dd>div{
+        width: calc(100% - 40px);
+    }
+    /* 캐릭터굿즈 리스트 */
+    .product .charList {
+        flex-wrap: wrap;
+    }
+    .product .charList li {
+        width:calc(25%);
+    }
+    .product .charList li a figure {
+        width: 20vw;
+        height: 20vw;
+    }
+    /* 굿즈펀딩 */
+    .product .funding span {
+        left: -90%;
+    }
+    /* 중고 버튼리스트 */
+    .books .btnList.usedBtnList {
+        margin-bottom: 65vw;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+    .books .btnList.usedBtnList dd {
+        left:0;
+    }
+    .btnList.usedBtnList.thirdBtn, 
+    .btnList.usedBtnList.fourthBtn {
+        margin-bottom: 30vw;
+        flex-wrap:wrap;
+    }
+    .books dd ul.categoryGenre {
+        padding:10px 0;
+    }
+    .product .categoryGenre li a,
+    .books .categoryGenre li a {
+        padding: 0.6vh 3vw;
+    }
+    dl.event dd {
+        width: 92%;
+        overflow: hidden;
+        margin:0 auto;
+    }
+    .content .category {
+        padding-bottom: 10px;
+    }
+    .product .coffeeMenu dd ul li {
+        margin-right: 1.5vh;
+    }
+    .product .coffeeMenu dd ul li:last-of-type{
+        display: block;
+    }
+    .product .coffeeMenu dd ul{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    /* 중고서점 */
+    .books dl.searchBox fieldset #searchType {
+        padding-right: 12px;
+    }
+    .books dl.searchBox fieldset #search {
+        width: 75%;
+    }
+
+    .blog .mania dd .maniaList li {
+        width: 25%;
+    }
+    /* 블로그 */
+    .blog>dl {
+        width:95%;
+    }
+    .blog .btnList {
+        margin-bottom: 565px;
+    }
+    .blog .btnList dd li {
+        margin-bottom:20px;
+    }
+    .blog .btnList li>a{
+        position: relative;
+        align-items: center;
+    }
+    .blog .btnList div {
+        width: calc(100% - 150px);
+        padding-top: 30px;
+    }
+    .blog .btnList li a>h3:first-of-type {
+        width:auto;
+        position: absolute;
+        top:0;
+        white-space: nowrap;
+        width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .blog .btnList.fourthBtn {
+        margin-bottom: 620px;
+    }
+    .blog .mania dd li {
+        width: 25%;
+    }
+    .blog .mania+dl dd ul li:last-of-type {
+        display: none;
+    }
+    .blog .btnList.youtube li {
+        width:calc(100%/3);
+    }
+    .blog dl.btnList.youtube dt>a:last-of-type {
+        top: -35px;
+    }
+    .blog dl.btnList.youtube dt {
+        width: 23%;
+        margin: 0;
+        padding: 0;
+    }
+    .blog dl.btnList.youtube h2 {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    p.productCategory {
+        margin-left: 20px;
+    }
+    .detailContent{
+        width: 100%;
+    }
+    .productInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .productInfo>figure {
+        width: 75%;
+        height: 50vh;
+    }
+    .paraGrup {
+        margin-top: 10%;
+        width: 90%;
+    }
+    .paraGrup form>button:first-of-type {
+        padding: 0 20%;
+    }
+    .used+form {
+        display: flex;
+        width: 95%;
+    }
+    .used+form button:first-of-type{
+        margin: 0;
+    }
+    .used+form button {
+        margin-left: 1%;
+        margin-bottom: 0;
+    }
+}

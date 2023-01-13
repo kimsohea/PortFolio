@@ -1,0 +1,48 @@
+@media (max-width:500px) {
+    .books .btnList {
+        margin-bottom: 98%;
+    }
+    .books span, 
+    .product span {
+        font-size:1rem;
+    }
+    header .mobileGnb>li {
+        font-size: 1.2rem;
+    }
+    header .depthlist1m>li {
+        font-size: 1rem;
+    }
+    header .depthlist2m.active {
+        font-size: 0.9rem;
+    }
+    ul.mobilePrivacy {
+        font-size: 1.2rem;
+    }
+    .books .btnList .twoTypeList li {
+        width: 100%;
+    }
+    .books .btnList .twoTypeList li:last-of-type{
+        display: none;
+    }
+    .books .btnList .twoTypeList iframe,
+    .books .btnList .oneTypeList>iframe {
+        height:30vh;
+    }
+    .books .btnList.bottom a {
+        top: 4.5vh;
+    }
+    .books .btnList.outBook{
+        flex-wrap: wrap;
+        margin-bottom: 40vh;
+    }
+    .books .btnList.usedBtnList {
+        margin-bottom: 79vw;
+    }
+    .books .btnList.usedBtnList dt>a:last-of-type {
+        top: -4vh;
+    }
+    .btnList.usedBtnList.fourthBtn dd ul {
+        margin-top:1vh;
+    }
+    
+}
