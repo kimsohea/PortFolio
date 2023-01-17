@@ -136,8 +136,15 @@ ul.depthlist2>li ul.depthlist3.active {
 }
 
 /*top*/
+header .hWrap>.logo {
+    flex: 1;
+}
+header .hWrap>ul.gnb {
+    flex:10;
+    justify-content: flex-start;
+}
 header .hWrap>ul.pcPrivacy {
-    margin-left: 22%;
+    flex:1;
 }
 
 header .hWrap>ul.pcPrivacy>li {
