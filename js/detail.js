@@ -2630,7 +2630,7 @@ let itemId = [
     },
     {
         genre:`eBook > 인문학 > 인문 에세이`,
-        thumb:`./img/eBook15_01.jpg`,
+        thumb:`./img/ebook15_01.jpg`,
         event:``,
         title:`[eBook] 한국 소설이 좋아서 2 - 무료전자서평집`,
         listPrice:`0원`,
@@ -2643,7 +2643,7 @@ let itemId = [
     },
     {
         genre:`eBook > 소설/시/희곡 > 판타지/환상문학 > 외국판타지/환상소설`,
-        thumb:`./img/eBook15_02.jpg`,
+        thumb:`./img/ebook15_02.jpg`,
         event:``,
         title:`[eBook] 다가올 날들을 위한 안내서`,
         listPrice:`16,000원`,
@@ -2656,7 +2656,7 @@ let itemId = [
     },
     {
         genre:`eBook > 소설/시/희곡 > 호러.공포소설`,
-        thumb:`./img/eBook15_04.jpg`,
+        thumb:`./img/ebook15_04.jpg`,
         event:``,
         title:`[eBook] 세계괴담모음`,
         listPrice:`0원`,
