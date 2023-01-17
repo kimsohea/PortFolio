@@ -1564,7 +1564,7 @@ let itemId = [
     },
     {
         genre: `eBook > 소설/시/희곡 > 과학소설 > 외국`,
-        thumb: `./img/ebook02_08.jpg`,
+        thumb: `./img/eBook02_08.jpg`,
         event: ``,
         title: `[eBook] 내가 행복한 이유`,
         listPrice: `12,900원`,
@@ -1577,7 +1577,7 @@ let itemId = [
     },
     {
         genre: `eBook > 소설/시/희곡 > 영미소설`,
-        thumb: `./img/ebook02_09.jpg`,
+        thumb: `./img/eBook02_09.jpg`,
         event: `12월 특별 선물. 겨울가방, 북오르골 (이벤트 도서 포함, 국내서·외서 5만원 이상)`,
         title: `[eBook] 파친코 1 - 개정판`,
         listPrice: `12,500원`,
@@ -1590,7 +1590,7 @@ let itemId = [
     },
     {
         genre: `eBook > 인문학 > 책읽기/글쓰기 > 글쓰기`,
-        thumb: `./img/ebook02_10.jpg`,
+        thumb: `./img/eBook02_10.jpg`,
         event: ``,
         title: `[eBook] 이야기의 핵심`,
         listPrice: `9,800원`,
